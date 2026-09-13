@@ -1,0 +1,3 @@
+12 defense
+33% reduced damage and debuff time from traps
+Allows the wearer to see the wires

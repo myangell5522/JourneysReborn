@@ -1,0 +1,895 @@
+Mods: {
+	JourneysReborn: {
+		Items: {
+			BobberBox: {
+				DisplayName: Bobber Box
+				Tooltip: Adds an additional bobber while fishing
+			}
+
+			ProfessionalTackleBox: {
+				DisplayName: Professional Tackle Box
+				Tooltip:
+					'''
+					Fishing line will never break, decreases chance of bait consumption, increases fishing power by 20
+					Adds an additional bobber while fishing
+					'''
+			}
+
+			GhostMatter: {
+				DisplayName: Ghost Matter
+				Tooltip: ""
+			}
+
+			TombCrawlerClaw: {
+				DisplayName: Tomb Crawler Claw
+				Tooltip: ""
+			}
+
+			FishingLuckPotion: {
+				DisplayName: Fishing Luck Potion
+				Tooltip: Increases amount of fish caught
+			}
+
+			MagnetismPotion: {
+				DisplayName: Magnetism Potion
+				Tooltip: Increases pickup range for items
+			}
+
+			PotionOfRebirth: {
+				DisplayName: Potion of Rebirth
+				Tooltip: Teleports you to your last death position
+			}
+
+			CactusAxe: {
+				Tooltip: ""
+				DisplayName: Cactus Axe
+			}
+
+			CactusHammer: {
+				DisplayName: Cactus Hammer
+				Tooltip: ""
+			}
+
+			DiamondPickaxe: {
+				DisplayName: Diamond Pickaxe
+				Tooltip:
+					'''
+					Periodically increases tool mining speed while mining
+					'Rumor has it that this pickaxe is legendary in some places'
+					'''
+			}
+
+			TopazPickaxe: {
+				Tooltip: Periodically increases tool mining speed while mining
+				DisplayName: Topaz Pickaxe
+			}
+
+			SapphirePickaxe: {
+				Tooltip: Periodically increases tool mining speed while mining
+				DisplayName: Sapphire Pickaxe
+			}
+
+			RubyPickaxe: {
+				Tooltip: Periodically increases tool mining speed while mining
+				DisplayName: Ruby Pickaxe
+			}
+
+			EmeraldPickaxe: {
+				Tooltip: Periodically increases tool mining speed while mining
+				DisplayName: Emerald Pickaxe
+			}
+
+			AmethystPickaxe: {
+				Tooltip: Periodically increases tool mining speed while mining
+				DisplayName: Amethyst Pickaxe
+			}
+
+			AmberPickaxe: {
+				Tooltip: Periodically increases tool mining speed while mining
+				DisplayName: Amber Pickaxe
+			}
+
+			FlinxFurHat: {
+				DisplayName: Flinx Fur Hat
+				Tooltip: Increases summon damage by 4%
+				SetBonus:
+					'''
+					Increases whip range by 15%
+					'After all these years, finally I have them all'
+					'''
+			}
+
+			FlinxFurPants: {
+				DisplayName: Flinx Fur Pants
+				Tooltip:
+					'''
+					Increases summon damage by 3%
+					5% increased movement speed
+					'''
+			}
+
+			FlaskOfShadowflame: {
+				DisplayName: Flask of Shadowflames
+				Tooltip: Melee and Whip attacks set enemies on shadowflame
+			}
+
+			SentryMasterPotion: {
+				DisplayName: Sentry Master Potion
+				Tooltip: Increases your max number of sentries by 1
+			}
+
+			AmberHat: {
+				DisplayName: Amber Hat
+				Tooltip:
+					'''
+					9% increased magic damage
+					6% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			AmethystHat: {
+				DisplayName: Amethyst Hat
+				Tooltip:
+					'''
+					5% increased magic damage
+					2% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			DiamondHat: {
+				DisplayName: Diamond Hat
+				Tooltip:
+					'''
+					10% increased magic damage
+					7% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			EmeraldHat: {
+				DisplayName: Emerald Hat
+				Tooltip:
+					'''
+					8% increased magic damage
+					5% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			RubyHat: {
+				DisplayName: Ruby Hat
+				Tooltip:
+					'''
+					9% increased magic damage
+					6% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			SapphireHat: {
+				DisplayName: Sapphire Hat
+				Tooltip:
+					'''
+					7% increased magic damage
+					4% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			TopazHat: {
+				DisplayName: Topaz Hat
+				Tooltip:
+					'''
+					6% increased magic damage
+					3% reduced mana cost
+					'''
+				SetBonus: 10% increased magic critical strike chance
+			}
+
+			MeteorPickaxe: {
+				DisplayName: Meteor Pickaxe
+				Tooltip: ""
+			}
+
+			AdrenalinePotion: {
+				DisplayName: Adrenaline Potion
+				Tooltip: ""
+			}
+
+			ResistancePotion: {
+				DisplayName: Resistance Potion
+				Tooltip: Grants immunity to knockback
+			}
+
+			ChieftainsNecklace: {
+				DisplayName: Chieftains Necklace
+				Tooltip: ""
+			}
+
+			FancyBlackHeels: {
+				DisplayName: Fancy Black Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyBlueHeels: {
+				DisplayName: Fancy Blue Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyGreenHeels: {
+				DisplayName: Fancy Green Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyPinkHeels: {
+				DisplayName: Fancy Pink Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyRedHeels: {
+				DisplayName: Fancy Red Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyVioletHeels: {
+				DisplayName: Fancy Violet Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyWhiteHeels: {
+				DisplayName: Fancy White Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			FancyYellowHeels: {
+				DisplayName: Fancy Yellow Heels
+				Tooltip: Impractical, but stunning!
+			}
+
+			LithiumOre: {
+				Tooltip: ""
+				DisplayName: Lithium Ore
+			}
+
+			LithiumBar: {
+				Tooltip: ""
+				DisplayName: Lithium Bar
+			}
+
+			LithiumSource: {
+				Tooltip: 20 Volts!
+				DisplayName: Lithium Source
+			}
+
+			SmartBracelet: {
+				DisplayName: Smart Bracelet
+				Tooltip:
+					'''
+					5% increased movement speed
+					Tells the time
+					Displays how fast the player is moving
+					'''
+			}
+
+			MiniTracker: {
+				Tooltip: Displays player aggro, life regeneration, total amount of rare creatures around you and luck
+				DisplayName: Mini Tracker
+			}
+
+			MarinersDevice: {
+				Tooltip: Displays weather, moon phase, fishing information and today's quest fish
+				DisplayName: Mariner's Device
+			}
+
+			LuckyClover: {
+				Tooltip:
+					'''
+					Displays and increases luck
+					'14 years of bad luck'
+					'''
+				DisplayName: Lucky Clover
+			}
+
+			LifeformDetectorCrimson: {
+				Tooltip: Displays total amout of rare creatures around you
+				DisplayName: Lifeform Detector
+			}
+
+			LifeformDetectorCorruption: {
+				Tooltip: Displays total amout of rare creatures around you
+				DisplayName: Lifeform Detector
+			}
+
+			HeartRateMonitor: {
+				Tooltip:
+					'''
+					5% increased movement speed
+					Increases effect of life healing potions by 10%
+					Slowly regenerates life
+					Tells the time
+					Displays how fast the player is moving and life regeneration
+					'20% sale if pre-ordered online'
+					'''
+				DisplayName: Heart Rate Monitor
+			}
+
+			FishingSchedule: {
+				Tooltip:
+					'''
+					Displays today's quest fish
+					'That's your quest fish for today'
+					'''
+				DisplayName: Fishing Schedule
+			}
+
+			DebugXY: {
+				Tooltip: (DEBUG ONLY) Displays current player position (in tile coordinates)
+				DisplayName: Debug XY
+			}
+
+			Cardiograph: {
+				Tooltip: Displays life regeneration
+				DisplayName: Cardiograph
+			}
+
+			AnxietyRadar: {
+				Tooltip: Displays aggro
+				DisplayName: Anxiety Radar
+			}
+
+			Toolkit: {
+				Tooltip: Increases block placement by 2 & tool range by 1
+				DisplayName: Toolkit
+			}
+
+			SuperMagnet: {
+				Tooltip:
+					'''
+					Increases pickup range for items, hearts and mana stars
+					'Can't attract cuties'
+					'''
+				DisplayName: Super Magnet
+			}
+
+			Smartglasses: {
+				DisplayName: Smartglasses
+				Tooltip:
+					'''
+					Allows you to see nearby enemies and hazards
+					Grants improved wire vision
+					'''
+			}
+
+			Ocular: {
+				DisplayName: Ocular
+				Tooltip: 
+				    '''
+					Allows you to see nearby enemies and hazards
+					Enables Echo Sight, showing hidden blocks
+					Grants improved wire vision
+					'You can see forever!'
+					'''
+
+			}
+
+			DesertedTechnology: {
+				Tooltip:
+					'''
+					Increases mining speed by 25%
+					Displays the most valuable ore around you when worn
+					'''
+				DisplayName: Deserted Technology
+			}
+
+			DangersenseLens: {
+				Tooltip: Allows you to see nearby hazards
+				DisplayName: Dangersense Lens
+			}
+
+			CreatorsToolkit: {
+				DisplayName: Creators Toolkit
+				Tooltip:
+					'''
+					Enemies are less likely to target you
+					Increases mining speed by 25%
+					Increases block & wall placement speed
+					Increases block placement by 4 & tool range by 3
+					Increases pickup range for items
+					Automatically paints or coats placed objects
+					Displays the most valuable ore around you
+					Hold Up to reach higher
+					'With 1 year of warranty period'
+					'''
+			}
+
+			ClownNose: {
+				DisplayName: Clown Nose
+				Tooltip: It's yours
+			}
+
+			DryadsAmulet: {
+				DisplayName: Dryad's Amulet
+				Tooltip: Re-adresses some damage from town NPCs to you
+			}
+
+			HunterLens: {
+				Tooltip: Allows you to see nearby enemies
+				DisplayName: Hunter Lens
+			}
+
+			BestiaGear: {
+				DisplayName: Bestia Gear
+				Tooltip:
+					'''
+					10% increased movement speed
+					Allows the ability to climb walls
+					Increases fall resistance
+					'''
+			}
+
+			Shadowflame: {
+				Tooltip: ""
+				DisplayName: Shadowflame
+			}
+
+			MandibleScissors: {
+				Tooltip:
+					'''
+					Ignores 5 points of enemy Defense
+					'Stop bulliying an enemy named Defense'
+					            
+					'''
+				DisplayName: Mandible Scissors
+			}
+
+			ShadowflameBullet: {
+				Tooltip: ""
+				DisplayName: Shadowflame Bullet
+			}
+
+			ShadowflameArrow: {
+				Tooltip: ""
+				DisplayName: Shadowflame Arrow
+			}
+
+			JaggedArrow: {
+				Tooltip:
+					'''
+					Bounces off walls up to 4 times
+					Damage increases with each bounce up to 2 times by 3
+					Ignores 5 points of enemy Defense
+					'Stop bulliying an enemy named Defense'
+					'''
+				DisplayName: Jagged Arrow
+			}
+
+			IcicleAmmo: {
+				Tooltip: ""
+				DisplayName: Icicle Ammo
+			}
+
+			HellfireBullet: {
+				Tooltip: Inflicts Hellfire on enemies
+				DisplayName: Hellfire Bullet
+			}
+
+			TreasureBobber: {
+				Tooltip:
+					'''
+					Increases fishing power by 10
+					Adds a chance to catch ore
+					'''
+				DisplayName: Treasure Bobber
+			}
+
+			TriggerFingers: {
+				Tooltip:
+					'''
+					10% increased ranged weapon use time
+					Enables auto shoot for ranged weapons
+					'''
+				DisplayName: Trigger Fingers
+			}
+
+			RobinsQuiver: {
+				Tooltip:
+					'''
+					Increases arrow damage by 15% and greatly increases arrow speed
+					20% chance to not consume arrows
+					'Fight for the justice!'
+					'''
+				DisplayName: Robins Quiver
+			}
+
+			RainbowQuiver: {
+				Tooltip:
+					'''
+					Increases arrow speed
+					Wooden arrows have a chance turn into random arrows
+					20% chance to not consume arrows
+					'''
+				DisplayName: Rainbow Quiver
+			}
+
+			Quiver: {
+				Tooltip: 10% chance to not consume arrows
+				DisplayName: Quiver
+			}
+
+			HellfireQuiver: {
+				Tooltip:
+					'''
+					Increases arrow damage by 10% and greatly increases arrow speed
+					20% chance not to consume arrows
+					Lights wooden arrows in the Infernal Fire
+					'Your enemies will burn in the pain'
+					'''
+				DisplayName: Hellfire Quiver
+			}
+
+			Backstabber: {
+				DisplayName: Backstabber
+				Tooltip:
+					'''
+					Increased melee damage on their back
+					'Et tu?'
+					'''
+			}
+
+			Helltaker: {
+				DisplayName: Helltaker
+				Tooltip:
+					'''
+					Greatly increased melee fire damage on their back
+					'A Ty?'
+					'''
+			}
+
+			AngelicShadowBag: {
+				DisplayName: Angelic Shadow Bag
+				Tooltip:
+					'''
+					Increases your max number of minions by 1
+					50% increased summon damage to Corruption and Hallow enemies
+					'Cursed prays'
+					'''
+			}
+
+			BlessedVesica: {
+				DisplayName: Blessed Vesica
+				Tooltip:
+					'''
+					Increases your max number of minions by 1
+					50% increased summon damage to Crimson and Hallow enemies
+					'Godly juice'
+					'''
+			}
+
+			DivineWallet: {
+				DisplayName: Divine Wallet
+				Tooltip:
+					'''
+					Increases your max number of minions by 1
+					50% increased summon damage to Hallow enemies
+					'They'll pay at the Heaven's Gates'
+					'''
+			}
+
+			EldritchBelt: {
+				DisplayName: Eldritch Belt
+				Tooltip:
+					'''
+					Increases your max number of minions by 1
+					50% increased summon damage to Corruption enemies
+					'Backstab your foes'
+					'''
+			}
+
+			VesicaUrinaria: {
+				DisplayName: Vesica Urinaria
+				Tooltip:
+					'''
+					Increases your max number of minions by 1
+					50% increased summon damage to Crimson enemies
+					'Juicy sack'
+					'''
+			}
+
+			HadessBoots: {
+				DisplayName: Hades's Boots
+				Tooltip:
+					'''
+					Allows flight
+					The wearer can run super fast
+					Leaves a trail of flames in your wake
+					Grants immunity to knockback and fire blocks
+					Negates fall damage
+					'''
+			}
+
+			RustyHorseshoe: {
+				DisplayName: Rusty Horseshoe
+				Tooltip:
+					'''
+					Grants immunity to knockback and fire blocks
+					Negates fall damage
+					'''
+			}
+
+			MagnifyingGlass: {
+				Tooltip: 3% increased critical strike chance
+				DisplayName: Magnifying Glass
+			}
+
+			ShadowflameSpirit: {
+				Tooltip: Most magic wands gain special effects
+				DisplayName: Shadowflame Spirit
+			}
+
+			ManaBand: {
+				Tooltip: ""
+				DisplayName: Mana Band
+			}
+
+			MagicCrystal: {
+				Tooltip: 15% chance to not consume mana
+				DisplayName: Magic Crystal
+			}
+
+			ForbiddenPage: {
+				Tooltip: Most spell tomes gain special effects
+				DisplayName: Forbidden Page
+			}
+
+			SorcerersBand: {
+				DisplayName: Sorcerers Band
+				Tooltip: Increases effect of mana restoring potions by 15%
+			}
+
+			BandOfRecovery: {
+				DisplayName: Band Of Recovery
+				Tooltip: Increases effect of life healing potions by 15%
+			}
+
+			SonarDevice: {
+				DisplayName: Sonar Device
+				Tooltip: ""
+			}
+
+			NebulaEmblem: {
+				DisplayName: Nebula Emblem
+				Tooltip: ""
+			}
+
+			SolarEmblem: {
+				DisplayName: Solar Emblem
+				Tooltip: ""
+			}
+
+			VortexEmblem: {
+				DisplayName: Vortex Emblem
+				Tooltip: ""
+			}
+
+			StardustEmblem: {
+				DisplayName: Stardust Emblem
+				Tooltip: ""
+			}
+
+			AntiqueTechnology: {
+				DisplayName: Antique Technology
+				Tooltip:
+					'''
+					Increases mining speed by 25%
+					Displays the most valuable ore around you when worn
+					'''
+			}
+
+			FrenzyPotion: {
+				DisplayName: Frenzy Potion
+				Tooltip: ""
+			}
+
+			BouncePotion: {
+				DisplayName: Bounce Potion
+				Tooltip: Increases jump speed and allows auto-jump
+			}
+
+			EaglePrecisionPotion: {
+				DisplayName: Eagle Precision Potion
+				Tooltip: Increases bullet and dart damage and velocity
+			}
+
+			MobilityPotion: {
+				DisplayName: Mobility Potion
+				Tooltip: Increases movement speed and acceleration
+			}
+
+			PetalPotion: {
+				DisplayName: Petal Potion
+				Tooltip: ""
+			}
+
+			PiercingPotion: {
+				DisplayName: Piercing Potion
+				Tooltip: Increases armor penetration by 10
+			}
+
+			BatFang: {
+				Tooltip: Minions have a chance to apply several debuffs on enemies
+				DisplayName: Bat Fang
+			}
+
+			EbonstoneGolemHead: {
+				Tooltip: ""
+				DisplayName: Ebonstone Golem Head
+			}
+		}
+
+		Buffs: {
+			Magnetism: {
+				DisplayName: Magnetism
+				Description: Increased item pickup range
+			}
+
+			FishermansLuck: {
+				DisplayName: Fisherman's Luck
+				Description: Increased amount of fish caught
+			}
+
+			GemRushTopaz: {
+				Description: 15% increased mining speed
+				DisplayName: Gem Rush (Topaz)
+			}
+
+			GemRushSapphire: {
+				Description: 25% increased mining speed
+				DisplayName: Gem Rush (Sapphire)
+			}
+
+			GemRushRuby: {
+				Description: 25% increased mining speed
+				DisplayName: Gem Rush (Ruby)
+			}
+
+			GemRushEmerald: {
+				Description: 20% increased mining speed
+				DisplayName: Gem Rush (Emerald)
+			}
+
+			GemRushDiamond: {
+				Description: 25% increased mining speed
+				DisplayName: Gem Rush (Diamond)
+			}
+
+			GemRushAmethyst: {
+				Description: 15% increased mining speed
+				DisplayName: Gem Rush (Amethyst)
+			}
+
+			GemRushAmber: {
+				Description: 25% increased mining speed
+				DisplayName: Gem Rush (Amber)
+			}
+
+			SentryMaster: {
+				DisplayName: Sentry Master
+				Description: Increased max number of sentries
+			}
+
+			WeaponImbue_Shadowflame: {
+				DisplayName: Weapon Imbue: Shadowflames
+				Description: Melee and Whip attacks set enemies on shadowflame
+			}
+
+			Adrenaline: {
+				DisplayName: Adrenaline
+				Description: Mods.JourneysReborn.Buffs.Adrenaline.Description
+			}
+
+			Resistance: {
+				DisplayName: Resistance
+				Description: Grants immunity to knockback
+			}
+
+			Adamantite: {
+				DisplayName: Adamantite
+				Description: Mods.JourneysReborn.Buffs.Adamantite.Description
+			}
+
+			Bounce: {
+				DisplayName: Bounce
+				Description: Mods.JourneysReborn.Buffs.Bounce.Description
+			}
+
+			EaglePrecision: {
+				DisplayName: Eagle Precision
+				Description: Mods.JourneysReborn.Buffs.EaglePrecision.Description
+			}
+
+			Grounded: {
+				DisplayName: Grounded
+				Description: Mods.JourneysReborn.Buffs.Grounded.Description
+			}
+
+			Mobility: {
+				DisplayName: Mobility
+				Description: Mods.JourneysReborn.Buffs.Mobility.Description
+			}
+
+			Overweight: {
+				DisplayName: Overweight
+				Description: Mods.JourneysReborn.Buffs.Overweight.Description
+			}
+
+			Petal: {
+				DisplayName: Petal
+				Description: Mods.JourneysReborn.Buffs.Petal.Description
+			}
+
+			Piercing: {
+				DisplayName: Piercing
+				Description: Mods.JourneysReborn.Buffs.Piercing.Description
+			}
+
+			Providence: {
+				DisplayName: Providence
+				Description: Mods.JourneysReborn.Buffs.Providence.Description
+			}
+
+			WeaponImbue_Grounded: {
+				DisplayName: Weapon Imbue_ Grounded
+				Description: Mods.JourneysReborn.Buffs.WeaponImbue_Grounded.Description
+			}
+
+			Frenzy: {
+				Description: Mods.JourneysReborn.Buffs.Frenzy.Description
+				DisplayName: Frenzy
+			}
+		}
+
+		InfoDisplays: {
+			AnxietyDisplay.DisplayName: Aggro
+			LifeRegenDisplay.DisplayName: Life Regenetation
+			LuckDisplay.DisplayName: Player's Luck
+			QuestFishDisplay.DisplayName: Today's Quest Fish
+			TotalRareCreaturesDisplay.DisplayName: Amount of Rare Creatures Nearby
+			RampageQuestDisplay.DisplayName: Most Wanted!
+			XYDisplay.DisplayName: Position Display
+			AnxietyRadarDisplay.DisplayName: Anxiety Radar Display
+			CardiographDisplay.DisplayName: Cardiograph Display
+			DebugXYDisplay.DisplayName: Debug X Y Display
+			FishingScheduleDisplay.DisplayName: Fishing Schedule Display
+			LifeformDetectorDisplay.DisplayName: Lifeform Detector Display
+			LuckyCloverDisplay.DisplayName: Lucky Clover Display
+		}
+
+		InfoText: {
+			Aggro: aggro
+			Deaggro: deaggro
+			Luck: luck
+			BadLuck: bad luck
+			LifeRegen: hp/sec
+			LifeDamage: dmg/sec
+			AnglerNotSaved: Angler not saved!
+			RareCreaturesNearby: Rare creatures nearby
+			NoRareCreatures: No rare creatures nearby
+		}
+
+		TileMapDisplayName.LithiumOre: Lithium
+		Tiles.LithiumOre_Tile.MapEntry: Lithium Ore_ Tile
+
+		Projectiles: {
+			ShadowflameBulletProjectile.DisplayName: Shadowflame Bullet Projectile
+			JaggedArrowProj.DisplayName: Jagged Arrow Proj
+			Icicle.DisplayName: Icicle
+			HellfireBulletProjectile.DisplayName: Hellfire Bullet Projectile
+			EbonstoneBoulderProjectileFTW.DisplayName: Ebonstone Boulder Projectile F T W
+			EbonstoneBoulderProjectile.DisplayName: Ebonstone Boulder Projectile
+		}
+
+		NPCs.EbonstoneGolem.DisplayName: Ebonstone Golem
+	}
+}

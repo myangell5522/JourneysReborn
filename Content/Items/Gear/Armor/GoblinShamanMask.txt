@@ -1,0 +1,3 @@
+4 defense
+Extends the duration of Poisoned and Acid Venom debuffs inflicted by the player by 2 seconds.
+Grants immunity to Cursed and Slow

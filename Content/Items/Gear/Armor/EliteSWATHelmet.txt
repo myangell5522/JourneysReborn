@@ -1,0 +1,6 @@
+SWAT Helmet + что-то ещё
+
+Defense 12
+14% increased ranged critical strike chance
+20% chance to save ammo
+Grants immunity to knockback
