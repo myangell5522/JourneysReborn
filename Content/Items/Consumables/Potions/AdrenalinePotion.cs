@@ -27,7 +27,7 @@ namespace JourneysReborn.Content.Items.Consumables.Potions
             Item.rare = ItemRarityID.LightRed;
             Item.value = Item.sellPrice(silver: 2);
             Item.buffType = ModContent.BuffType<Adrenaline>();
-            Item.buffTime = 14400; 
+            Item.buffTime = 14400;
         }
 
         public override void AddRecipes()
@@ -41,29 +41,4 @@ namespace JourneysReborn.Content.Items.Consumables.Potions
                 .Register();
         }
     }
-
-    public class PalladiumPlayer : ModPlayer
-    {
-        // Храним значения, которые будут применяться в Update
-        public float SpeedBonus;
-        public int LifeRegenBonus;
-        public int DefensePenalty;   // штраф (положительное число, будет вычитаться)
-
-        public override void ResetEffects()
-        {
-            // Обнуляем каждый кадр, чтобы не накапливать
-            SpeedBonus = 0f;
-            LifeRegenBonus = 0;
-            DefensePenalty = 0;
-        }
-
-        public override void PostUpdate()
-        {
-            // Применяем бонусы к игроку (вызывается каждый кадр после ResetEffects)
-            Player.moveSpeed += SpeedBonus;
-            Player.lifeRegen += LifeRegenBonus;
-            Player.statDefense -= DefensePenalty; // штраф вычитается
-        }
-    }
 }
-

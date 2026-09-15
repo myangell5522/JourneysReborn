@@ -26,9 +26,8 @@ namespace JourneysReborn.Content.Items.Consumables.Potions
             Item.consumable = true;
             Item.rare = ItemRarityID.Blue;
             Item.value = Item.sellPrice(silver: 2);
-			//player.GetDamageType(0).ArmorPenetrationModifier += 10;
-            Item.buffType = ModContent.BuffType<Buffs.Piercing>(); 
-            Item.buffTime = 36000; 
+            Item.buffType = ModContent.BuffType<Piercing>();
+            Item.buffTime = 14400; 
         }
 
         public override void AddRecipes()

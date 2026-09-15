@@ -1,20 +1,18 @@
 using Terraria;
-using Terraria.ID;
-using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace JourneysReborn.Content.Buffs 
+namespace JourneysReborn.Content.Buffs
 {
     public class Piercing : ModBuff
     {
-        public override void SetStaticDefaults() {
-			Main.buffNoTimeDisplay[Type] = false;
+        public override void SetStaticDefaults()
+        {
             Main.buffNoSave[Type] = false;
-		}
+        }
 
         public override void Update(Player player, ref int buffIndex)
         {
-            player.GetArmorPenetration(DamageClass.Generic) = 10;
+            player.GetArmorPenetration(DamageClass.Generic) += 10;
         }
     }
 }

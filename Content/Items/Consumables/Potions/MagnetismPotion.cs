@@ -27,7 +27,7 @@ namespace JourneysReborn.Content.Items.Consumables.Potions
             Item.rare = ItemRarityID.Blue;
             Item.UseSound = SoundID.Item3;
             Item.buffType = ModContent.BuffType<Magnetism>();
-            Item.buffTime = 18000;
+            Item.buffTime = 14400;
 		}
 
         public override void AddRecipes() {

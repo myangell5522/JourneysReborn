@@ -26,8 +26,8 @@ namespace JourneysReborn.Content.Items.Consumables.Potions
             Item.consumable = true;
             Item.rare = ItemRarityID.Blue;
             Item.value = Item.sellPrice(silver: 2);
-            Item.buffType = ModContent.BuffType<Buffs.Mobility>(); 
-            Item.buffTime = 36000; 
+            Item.buffType = ModContent.BuffType<Mobility>();
+            Item.buffTime = 28800; 
         }
 
         public override void AddRecipes()

@@ -1,1 +1,3 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+[i]Journey's Reborn[/i] is a content expansion built around the remaining Journey-mode gaps: new buffs and flasks, corruption/crimson/hallow cavern golems, goblin army support enemies, expert armed zombies, gold critter variants, jungle/gem recipe fixes, and extra shimmer conversions.
+
+[b]Requires Terraria + tModLoader.[/b]

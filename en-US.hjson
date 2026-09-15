@@ -113,6 +113,21 @@ Mods: {
 				Tooltip: Melee and Whip attacks set enemies on shadowflame
 			}
 
+			FlaskOfFrostbite: {
+				DisplayName: Flask of Frostbite
+				Tooltip: Melee and Whip attacks set enemies on frostbite
+			}
+
+			FlaskOfFrostburn: {
+				DisplayName: Flask of Frostburn
+				Tooltip: Melee and Whip attacks set enemies on frostburn
+			}
+
+			FlaskOfHellfire: {
+				DisplayName: Flask of Hellfire
+				Tooltip: Melee and Whip attacks set enemies on hellfire
+			}
+
 			SentryMasterPotion: {
 				DisplayName: Sentry Master Potion
 				Tooltip: Increases your max number of sentries by 1
@@ -195,7 +210,7 @@ Mods: {
 
 			AdrenalinePotion: {
 				DisplayName: Adrenaline Potion
-				Tooltip: ""
+				Tooltip: Increases damage and movement speed, but lowers defense as health decreases
 			}
 
 			ResistancePotion: {
@@ -364,14 +379,13 @@ Mods: {
 
 			Ocular: {
 				DisplayName: Ocular
-				Tooltip: 
-				    '''
+				Tooltip:
+					'''
 					Allows you to see nearby enemies and hazards
 					Enables Echo Sight, showing hidden blocks
 					Grants improved wire vision
 					'You can see forever!'
 					'''
-
 			}
 
 			DesertedTechnology: {
@@ -689,7 +703,7 @@ Mods: {
 
 			FrenzyPotion: {
 				DisplayName: Frenzy Potion
-				Tooltip: ""
+				Tooltip: Critical hits deal more damage and knockback
 			}
 
 			BouncePotion: {
@@ -723,9 +737,154 @@ Mods: {
 			}
 
 			EbonstoneGolemHead: {
-				Tooltip: ""
 				DisplayName: Ebonstone Golem Head
+				Tooltip: Can be worn or placed
 			}
+
+			CrimstoneGolemHead: {
+				DisplayName: Crimstone Golem Head
+				Tooltip: Can be worn or placed
+			}
+
+			PearlstoneGolemHead: {
+				DisplayName: Pearlstone Golem Head
+				Tooltip: Can be worn or placed
+			}
+
+			MechanicHelmet: {
+				DisplayName: Mechanic Helmet
+				Tooltip:
+					'''
+					33% reduced damage and debuff time from traps
+					Allows the wearer to see wires
+					'''
+			}
+
+			GoblinShamanMask: {
+				DisplayName: Shaman Mask
+				Tooltip:
+					'''
+					Extends Poisoned and Acid Venom inflicted by the player by 2 seconds
+					Grants immunity to Cursed and Slow
+					'''
+			}
+
+			BloodZombieArm: {
+				DisplayName: Blood Zombie Arm
+				Tooltip: Inflicts Bleeding for 2 seconds
+			}
+
+			SporeZombieArm: {
+				DisplayName: Spore Zombie Arm
+				Tooltip: Inflicts Confused for 1 second
+			}
+
+			EbonstoneGolemBanner: {
+				DisplayName: Ebonstone Golem Banner
+				Tooltip: Nearby players get a bonus against: Ebonstone Golem
+			}
+
+			CrimstoneGolemBanner: {
+				DisplayName: Crimstone Golem Banner
+				Tooltip: Nearby players get a bonus against: Crimstone Golem
+			}
+
+			PearlstoneGolemBanner: {
+				DisplayName: Pearlstone Golem Banner
+				Tooltip: Nearby players get a bonus against: Pearlstone Golem
+			}
+
+			GoblinMechanicBanner: {
+				DisplayName: Goblin Mechanic Banner
+				Tooltip: Nearby players get a bonus against: Goblin Mechanic
+			}
+
+			GoblinShamanBanner: {
+				DisplayName: Goblin Shaman Banner
+				Tooltip: Nearby players get a bonus against: Goblin Shaman
+			}
+
+			GoldCockatielItem: {
+				DisplayName: Gold Cockatiel
+				Tooltip: ""
+			}
+
+			GoldDuckItem: {
+				DisplayName: Gold Duck
+				Tooltip: ""
+			}
+
+			GoldMacawItem: {
+				DisplayName: Gold Macaw
+				Tooltip: ""
+			}
+
+			GoldOwlItem: {
+				DisplayName: Gold Owl
+				Tooltip: ""
+			}
+
+			GoldPenguinItem: {
+				DisplayName: Gold Penguin
+				Tooltip: ""
+			}
+
+			GoldScorpionItem: {
+				DisplayName: Gold Scorpion
+				Tooltip: ""
+			}
+
+			GoldSeagullItem: {
+				DisplayName: Gold Seagull
+				Tooltip: ""
+			}
+
+			GoldToucanItem: {
+				DisplayName: Gold Toucan
+				Tooltip: ""
+			}
+
+			GoldTurtleItem: {
+				DisplayName: Gold Turtle
+				Tooltip: ""
+			}
+		}
+
+		NPCs: {
+			CrimstoneGolem.DisplayName: Crimstone Golem
+			PearlstoneGolem.DisplayName: Pearlstone Golem
+			GoblinMechanic.DisplayName: Goblin Mechanic
+			GoblinShaman.DisplayName: Goblin Shaman
+			BattleBallista.DisplayName: Battle Ballista
+			BloodZombieArmed.DisplayName: Blood Zombie (Armed)
+			SporeZombieArmed.DisplayName: Spore Zombie (Armed)
+			GoldCockatiel.DisplayName: Gold Cockatiel
+			GoldDuck.DisplayName: Gold Duck
+			GoldMacaw.DisplayName: Gold Macaw
+			GoldOwl.DisplayName: Gold Owl
+			GoldPenguin.DisplayName: Gold Penguin
+			GoldScorpion.DisplayName: Gold Scorpion
+			GoldSeagull.DisplayName: Gold Seagull
+			GoldToucan.DisplayName: Gold Toucan
+			GoldTurtle.DisplayName: Gold Turtle
+			EbonstoneGolem.DisplayName: Ebonstone Golem
+		}
+
+		Projectiles: {
+			ShadowflameBulletProjectile.DisplayName: Shadowflame Bullet Projectile
+			JaggedArrowProj.DisplayName: Jagged Arrow Proj
+			Icicle.DisplayName: Icicle
+			HellfireBulletProjectile.DisplayName: Hellfire Bullet Projectile
+			EbonstoneBoulderProjectileFTW.DisplayName: Ebonstone Boulder Projectile F T W
+			EbonstoneBoulderProjectile.DisplayName: Ebonstone Boulder Projectile
+			BattleBallistaProjectile.DisplayName: Battle Ballista Projectile
+			CrimstoneBoulderProjectile.DisplayName: Crimstone Boulder Projectile
+			CrimstoneBoulderProjectileFTW.DisplayName: Crimstone Boulder Projectile F T W
+			CrimstoneRock.DisplayName: Crimstone Rock
+			EbonstoneRock.DisplayName: Ebonstone Rock
+			PearlstoneBoulderProjectile.DisplayName: Pearlstone Boulder Projectile
+			PearlstoneBoulderProjectileFTW.DisplayName: Pearlstone Boulder Projectile F T W
+			PearlstoneRock.DisplayName: Pearlstone Rock
 		}
 
 		Buffs: {
@@ -786,7 +945,7 @@ Mods: {
 
 			Adrenaline: {
 				DisplayName: Adrenaline
-				Description: Mods.JourneysReborn.Buffs.Adrenaline.Description
+				Description: Increased damage and movement speed, lowered defense as health decreases
 			}
 
 			Resistance: {
@@ -816,7 +975,7 @@ Mods: {
 
 			Mobility: {
 				DisplayName: Mobility
-				Description: Mods.JourneysReborn.Buffs.Mobility.Description
+				Description: Increased movement speed and acceleration
 			}
 
 			Overweight: {
@@ -831,7 +990,7 @@ Mods: {
 
 			Piercing: {
 				DisplayName: Piercing
-				Description: Mods.JourneysReborn.Buffs.Piercing.Description
+				Description: Increased armor penetration by 10
 			}
 
 			Providence: {
@@ -845,8 +1004,28 @@ Mods: {
 			}
 
 			Frenzy: {
-				Description: Mods.JourneysReborn.Buffs.Frenzy.Description
 				DisplayName: Frenzy
+				Description: Critical hits deal more damage and knockback
+			}
+
+			PhantomDecay: {
+				DisplayName: Phantom Decay
+				Description: Losing mana
+			}
+
+			WeaponImbue_Frostbite: {
+				DisplayName: Weapon Imbue: Frostbite
+				Description: Melee and Whip attacks set enemies on frostbite
+			}
+
+			WeaponImbue_Frostburn: {
+				DisplayName: Weapon Imbue: Frostburn
+				Description: Melee and Whip attacks set enemies on frostburn
+			}
+
+			WeaponImbue_Hellfire: {
+				DisplayName: Weapon Imbue: Hellfire
+				Description: Melee and Whip attacks set enemies on hellfire
 			}
 		}
 
@@ -880,16 +1059,5 @@ Mods: {
 
 		TileMapDisplayName.LithiumOre: Lithium
 		Tiles.LithiumOre_Tile.MapEntry: Lithium Ore_ Tile
-
-		Projectiles: {
-			ShadowflameBulletProjectile.DisplayName: Shadowflame Bullet Projectile
-			JaggedArrowProj.DisplayName: Jagged Arrow Proj
-			Icicle.DisplayName: Icicle
-			HellfireBulletProjectile.DisplayName: Hellfire Bullet Projectile
-			EbonstoneBoulderProjectileFTW.DisplayName: Ebonstone Boulder Projectile F T W
-			EbonstoneBoulderProjectile.DisplayName: Ebonstone Boulder Projectile
-		}
-
-		NPCs.EbonstoneGolem.DisplayName: Ebonstone Golem
 	}
 }

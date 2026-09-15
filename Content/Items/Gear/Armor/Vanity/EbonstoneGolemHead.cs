@@ -1,6 +1,8 @@
 using Terraria;
+using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
+using JourneysReborn.Content.Items.Misc.Blocks;
 
 namespace JourneysReborn.Content.Items.Gear.Armor.Vanity
 {
@@ -9,17 +11,61 @@ namespace JourneysReborn.Content.Items.Gear.Armor.Vanity
     {
         public override void SetStaticDefaults()
         {
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+            ArmorIDs.Head.Sets.DrawHead[Item.headSlot] = false;
         }
 
         public override void SetDefaults()
         {
+            Item.DefaultToPlaceableTile(ModContent.TileType<EbonstoneGolemHeadTile>());
             Item.width = 20;
             Item.height = 20;
-            Item.maxStack = 9999; // обычно не стакается в броне, но можно оставить 1
-            Item.value = Item.buyPrice(0, 0, 50, 0);
             Item.rare = ItemRarityID.Blue;
-            Item.defense = 0; // без защиты (чисто ванити)
-            Item.headSlot = -1; // этот слот будет автоматически назначен благодаря AutoloadEquip, поэтому можно не ставить, но лучше оставить -1 или вообще не задавать.
+            Item.value = Item.sellPrice(silver: 50);
+            Item.vanity = true;
+            Item.maxStack = 9999;
+        }
+    }
+
+    [AutoloadEquip(EquipType.Head)]
+    public class CrimstoneGolemHead : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+            ArmorIDs.Head.Sets.DrawHead[Item.headSlot] = false;
+        }
+
+        public override void SetDefaults()
+        {
+            Item.DefaultToPlaceableTile(ModContent.TileType<CrimstoneGolemHeadTile>());
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+            Item.value = Item.sellPrice(silver: 50);
+            Item.vanity = true;
+            Item.maxStack = 9999;
+        }
+    }
+
+    [AutoloadEquip(EquipType.Head)]
+    public class PearlstoneGolemHead : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+            ArmorIDs.Head.Sets.DrawHead[Item.headSlot] = false;
+        }
+
+        public override void SetDefaults()
+        {
+            Item.DefaultToPlaceableTile(ModContent.TileType<PearlstoneGolemHeadTile>());
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+            Item.value = Item.sellPrice(silver: 50);
+            Item.vanity = true;
+            Item.maxStack = 9999;
         }
     }
 }
