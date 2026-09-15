@@ -30,16 +30,36 @@ namespace JourneysReborn.Content.Projectiles.Hostile
             if (Main.rand.NextBool(4))
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.WoodFurniture, 0f, 0f, 100, default, 0.8f);
 
+            if (Projectile.localNPCImmunity != null)
+            {
+                for (int i = 0; i < Projectile.localNPCImmunity.Length; i++)
+                {
+                    if (Projectile.localNPCImmunity[i] > 0)
+                        Projectile.localNPCImmunity[i]--;
+                }
+            }
+
+            if (Main.netMode == NetmodeID.MultiplayerClient)
+                return;
+
             for (int i = 0; i < Main.maxNPCs; i++)
             {
                 NPC npc = Main.npc[i];
                 if (!npc.active || !npc.townNPC || !Projectile.Hitbox.Intersects(npc.Hitbox))
                     continue;
+                if (Projectile.localNPCImmunity != null && Projectile.localNPCImmunity[npc.whoAmI] > 0)
+                    continue;
 
                 npc.SimpleStrikeNPC(Projectile.damage, Projectile.direction, false, Projectile.knockBack);
+                if (Projectile.localNPCImmunity != null)
+                    Projectile.localNPCImmunity[npc.whoAmI] = Projectile.localNPCHitCooldown;
+
                 Projectile.penetrate--;
                 if (Projectile.penetrate <= 0)
+                {
                     Projectile.Kill();
+                    return;
+                }
                 break;
             }
         }

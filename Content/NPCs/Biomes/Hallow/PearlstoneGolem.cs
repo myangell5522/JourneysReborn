@@ -32,7 +32,7 @@ namespace JourneysReborn.Content.NPCs.Biomes.Hallow
         {
             BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.TheHallow,
             BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Caverns,
-            new FlavorTextBestiaryInfoElement("A pearlescent golem whose strikes leave foes disoriented.")
+            new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.PearlstoneGolem")
         };
 
         protected override bool InCorrectBiome(NPCSpawnInfo spawnInfo) => spawnInfo.Player.ZoneHallow;

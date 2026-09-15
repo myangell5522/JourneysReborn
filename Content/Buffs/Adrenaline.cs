@@ -12,7 +12,7 @@ namespace JourneysReborn.Content.Buffs
 
         public override void Update(Player player, ref int buffIndex)
         {
-            float healthPercent = (float)player.statLife / player.statLifeMax2;
+            float healthPercent = player.statLifeMax2 > 0 ? (float)player.statLife / player.statLifeMax2 : 1f;
 
             float damageAndSpeed;
             int defensePenalty;

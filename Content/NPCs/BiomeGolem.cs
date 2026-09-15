@@ -76,6 +76,8 @@ namespace JourneysReborn.Content.NPCs
                 if (Main.netMode != NetmodeID.MultiplayerClient)
                 {
                     Vector2 direction = player.Center - NPC.Center;
+                    if (direction.LengthSquared() < 1f)
+                        direction = new Vector2(NPC.direction, -0.25f);
                     direction.Normalize();
                     direction *= 10f;
                     direction.Y -= 2.5f;

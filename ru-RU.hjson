@@ -1,0 +1,1074 @@
+Mods: {
+	JourneysReborn: {
+		Items: {
+			BobberBox: {
+				DisplayName: Коробка поплавков
+				Tooltip: Добавляет дополнительный поплавок при рыбалке
+			}
+
+			ProfessionalTackleBox: {
+				DisplayName: Профессиональный ящик для снастей
+				Tooltip:
+					'''
+					Леска никогда не рвётся, снижает шанс расхода наживки, увеличивает силу рыбалки на 20
+					Добавляет дополнительный поплавок при рыбалке
+					'''
+			}
+
+			GhostMatter: {
+				DisplayName: Призрачная материя
+				Tooltip: ""
+			}
+
+			TombCrawlerClaw: {
+				DisplayName: Коготь могильного ползуна
+				Tooltip: ""
+			}
+
+			FishingLuckPotion: {
+				DisplayName: Зелье рыбацкой удачи
+				Tooltip: Увеличивает количество пойманной рыбы
+			}
+
+			MagnetismPotion: {
+				DisplayName: Зелье магнетизма
+				Tooltip: Увеличивает радиус подбора предметов
+			}
+
+			PotionOfRebirth: {
+				DisplayName: Зелье возрождения
+				Tooltip: Телепортирует вас к месту последней смерти
+			}
+
+			CactusAxe: {
+				Tooltip: ""
+				DisplayName: Кактусовый топор
+			}
+
+			CactusHammer: {
+				DisplayName: Кактусовый молот
+				Tooltip: ""
+			}
+
+			DiamondPickaxe: {
+				DisplayName: Алмазная кирка
+				Tooltip:
+					'''
+					Периодически увеличивает скорость добычи во время копания
+					'Говорят, в некоторых местах эта кирка считается легендарной'
+					'''
+			}
+
+			TopazPickaxe: {
+				Tooltip: Периодически увеличивает скорость добычи во время копания
+				DisplayName: Топазовая кирка
+			}
+
+			SapphirePickaxe: {
+				Tooltip: Периодически увеличивает скорость добычи во время копания
+				DisplayName: Сапфировая кирка
+			}
+
+			RubyPickaxe: {
+				Tooltip: Периодически увеличивает скорость добычи во время копания
+				DisplayName: Рубиновая кирка
+			}
+
+			EmeraldPickaxe: {
+				Tooltip: Периодически увеличивает скорость добычи во время копания
+				DisplayName: Изумрудная кирка
+			}
+
+			AmethystPickaxe: {
+				Tooltip: Периодически увеличивает скорость добычи во время копания
+				DisplayName: Аметистовая кирка
+			}
+
+			AmberPickaxe: {
+				Tooltip: Периодически увеличивает скорость добычи во время копания
+				DisplayName: Янтарная кирка
+			}
+
+			FlinxFurHat: {
+				DisplayName: Шапка из меха флинкса
+				Tooltip: Увеличивает урон призывателя на 4%
+				SetBonus:
+					'''
+					Увеличивает дальность хлыстов на 15%
+					'После всех этих лет я наконец собрал их всех'
+					'''
+			}
+
+			FlinxFurPants: {
+				DisplayName: Штаны из меха флинкса
+				Tooltip:
+					'''
+					Увеличивает урон призывателя на 3%
+					Скорость передвижения увеличена на 5%
+					'''
+			}
+
+			FlaskOfShadowflame: {
+				DisplayName: Флакон теневого пламени
+				Tooltip: Атаки ближнего боя и хлыстов поджигают врагов теневым пламенем
+			}
+
+			FlaskOfFrostbite: {
+				DisplayName: Флакон обморожения
+				Tooltip: Атаки ближнего боя и хлыстов накладывают на врагов обморожение
+			}
+
+			FlaskOfFrostburn: {
+				DisplayName: Флакон морозного ожога
+				Tooltip: Атаки ближнего боя и хлыстов накладывают на врагов морозный ожог
+			}
+
+			FlaskOfHellfire: {
+				DisplayName: Флакон адского огня
+				Tooltip: Атаки ближнего боя и хлыстов поджигают врагов адским огнём
+			}
+
+			SentryMasterPotion: {
+				DisplayName: Зелье мастера турелей
+				Tooltip: Увеличивает максимальное число турелей на 1
+			}
+
+			AmberHat: {
+				DisplayName: Янтарная шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 9%
+					Затраты маны снижены на 6%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			AmethystHat: {
+				DisplayName: Аметистовая шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 5%
+					Затраты маны снижены на 2%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			DiamondHat: {
+				DisplayName: Алмазная шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 10%
+					Затраты маны снижены на 7%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			EmeraldHat: {
+				DisplayName: Изумрудная шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 8%
+					Затраты маны снижены на 5%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			RubyHat: {
+				DisplayName: Рубиновая шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 9%
+					Затраты маны снижены на 6%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			SapphireHat: {
+				DisplayName: Сапфировая шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 7%
+					Затраты маны снижены на 4%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			TopazHat: {
+				DisplayName: Топазовая шляпа
+				Tooltip:
+					'''
+					Магический урон увеличен на 6%
+					Затраты маны снижены на 3%
+					'''
+				SetBonus: Шанс критического удара магией увеличен на 10%
+			}
+
+			MeteorPickaxe: {
+				DisplayName: Метеоритная кирка
+				Tooltip: ""
+			}
+
+			AdrenalinePotion: {
+				DisplayName: Зелье адреналина
+				Tooltip: Увеличивает урон и скорость передвижения, но снижает защиту по мере потери здоровья
+			}
+
+			ResistancePotion: {
+				DisplayName: Зелье сопротивления
+				Tooltip: Дарует иммунитет к отбрасыванию
+			}
+
+			ChieftainsNecklace: {
+				DisplayName: Ожерелье вождя
+				Tooltip: ""
+			}
+
+			FancyBlackHeels: {
+				DisplayName: Нарядные чёрные каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyBlueHeels: {
+				DisplayName: Нарядные синие каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyGreenHeels: {
+				DisplayName: Нарядные зелёные каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyPinkHeels: {
+				DisplayName: Нарядные розовые каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyRedHeels: {
+				DisplayName: Нарядные красные каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyVioletHeels: {
+				DisplayName: Нарядные фиолетовые каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyWhiteHeels: {
+				DisplayName: Нарядные белые каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			FancyYellowHeels: {
+				DisplayName: Нарядные жёлтые каблуки
+				Tooltip: Непрактично, но эффектно!
+			}
+
+			LithiumOre: {
+				Tooltip: ""
+				DisplayName: Литиевая руда
+			}
+
+			LithiumBar: {
+				Tooltip: ""
+				DisplayName: Литиевый слиток
+			}
+
+			LithiumSource: {
+				Tooltip: 20 вольт!
+				DisplayName: Источник лития
+			}
+
+			SmartBracelet: {
+				DisplayName: Умный браслет
+				Tooltip:
+					'''
+					Скорость передвижения увеличена на 5%
+					Показывает время
+					Показывает скорость игрока
+					'''
+			}
+
+			MiniTracker: {
+				Tooltip: Показывает агрессию, регенерацию здоровья, число редких существ рядом и удачу
+				DisplayName: Мини-трекер
+			}
+
+			MarinersDevice: {
+				Tooltip: Показывает погоду, фазу луны, сведения о рыбалке и сегодняшнюю квестовую рыбу
+				DisplayName: Устройство морехода
+			}
+
+			LuckyClover: {
+				Tooltip:
+					'''
+					Показывает и увеличивает удачу
+					'14 лет невезения'
+					'''
+				DisplayName: Счастливый клевер
+			}
+
+			LifeformDetectorCrimson: {
+				Tooltip: Показывает общее число редких существ рядом
+				DisplayName: Детектор живности
+			}
+
+			LifeformDetectorCorruption: {
+				Tooltip: Показывает общее число редких существ рядом
+				DisplayName: Детектор живности
+			}
+
+			HeartRateMonitor: {
+				Tooltip:
+					'''
+					Скорость передвижения увеличена на 5%
+					Эффект зелий лечения увеличен на 10%
+					Медленно восстанавливает здоровье
+					Показывает время
+					Показывает скорость игрока и регенерацию здоровья
+					'Скидка 20%, если заказать онлайн заранее'
+					'''
+				DisplayName: Пульсометр
+			}
+
+			FishingSchedule: {
+				Tooltip:
+					'''
+					Показывает сегодняшнюю квестовую рыбу
+					'Вот твоя квестовая рыба на сегодня'
+					'''
+				DisplayName: Рыболовное расписание
+			}
+
+			DebugXY: {
+				Tooltip: (ТОЛЬКО ДЛЯ ОТЛАДКИ) Показывает текущие координаты игрока (в тайлах)
+				DisplayName: Отладка XY
+			}
+
+			Cardiograph: {
+				Tooltip: Показывает регенерацию здоровья
+				DisplayName: Кардиограф
+			}
+
+			AnxietyRadar: {
+				Tooltip: Показывает агрессию
+				DisplayName: Радар тревоги
+			}
+
+			Toolkit: {
+				Tooltip: Увеличивает дальность установки блоков на 2 и дальность инструментов на 1
+				DisplayName: Набор инструментов
+			}
+
+			SuperMagnet: {
+				Tooltip:
+					'''
+					Увеличивает радиус подбора предметов, сердец и звёзд маны
+					'Милашек не притягивает'
+					'''
+				DisplayName: Супермагнит
+			}
+
+			Smartglasses: {
+				DisplayName: Умные очки
+				Tooltip:
+					'''
+					Позволяют видеть ближайших врагов и опасности
+					Улучшают видимость проводов
+					'''
+			}
+
+			Ocular: {
+				DisplayName: Окуляр
+				Tooltip:
+					'''
+					Позволяет видеть ближайших врагов и опасности
+					Включает эхо-зрение, показывая скрытые блоки
+					Улучшает видимость проводов
+					'Ты видишь всё!'
+					'''
+			}
+
+			DesertedTechnology: {
+				Tooltip:
+					'''
+					Скорость добычи увеличена на 25%
+					Показывает самую ценную руду поблизости
+					'''
+				DisplayName: Заброшенная технология
+			}
+
+			DangersenseLens: {
+				Tooltip: Позволяет видеть ближайшие опасности
+				DisplayName: Линза чувства опасности
+			}
+
+			CreatorsToolkit: {
+				DisplayName: Набор создателя
+				Tooltip:
+					'''
+					Враги реже выбирают вас целью
+					Скорость добычи увеличена на 25%
+					Скорость установки блоков и стен увеличена
+					Дальность установки блоков увеличена на 4, дальность инструментов — на 3
+					Увеличивает радиус подбора предметов
+					Автоматически красит или покрывает установленные объекты
+					Показывает самую ценную руду поблизости
+					Удерживайте «Вверх», чтобы доставать выше
+					'Гарантия 1 год'
+					'''
+			}
+
+			ClownNose: {
+				DisplayName: Клоунский нос
+				Tooltip: Теперь он твой
+			}
+
+			DryadsAmulet: {
+				DisplayName: Амулет дриады
+				Tooltip: Перенаправляет часть урона городских НИПов на вас
+			}
+
+			HunterLens: {
+				Tooltip: Позволяет видеть ближайших врагов
+				DisplayName: Охотничья линза
+			}
+
+			BestiaGear: {
+				DisplayName: Снаряжение Бестии
+				Tooltip:
+					'''
+					Скорость передвижения увеличена на 10%
+					Позволяет лазать по стенам
+					Увеличивает сопротивление падению
+					'''
+			}
+
+			Shadowflame: {
+				Tooltip: ""
+				DisplayName: Теневое пламя
+			}
+
+			MandibleScissors: {
+				Tooltip:
+					'''
+					Игнорирует 5 единиц защиты врага
+					'Хватит травить врага по имени Защита'
+					'''
+				DisplayName: Челюстные ножницы
+			}
+
+			ShadowflameBullet: {
+				Tooltip: ""
+				DisplayName: Пуля теневого пламени
+			}
+
+			ShadowflameArrow: {
+				Tooltip: ""
+				DisplayName: Стрела теневого пламени
+			}
+
+			JaggedArrow: {
+				Tooltip:
+					'''
+					Отскакивает от стен до 4 раз
+					Урон растёт с каждым отскоком до 2 раз на 3
+					Игнорирует 5 единиц защиты врага
+					'Хватит травить врага по имени Защита'
+					'''
+				DisplayName: Зазубренная стрела
+			}
+
+			IcicleAmmo: {
+				Tooltip: ""
+				DisplayName: Сосулька
+			}
+
+			HellfireBullet: {
+				Tooltip: Накладывает на врагов адский огонь
+				DisplayName: Пуля адского огня
+			}
+
+			TreasureBobber: {
+				Tooltip:
+					'''
+					Увеличивает силу рыбалки на 10
+					Даёт шанс выловить руду
+					'''
+				DisplayName: Сокровищный поплавок
+			}
+
+			TriggerFingers: {
+				Tooltip:
+					'''
+					Скорость использования дальнего оружия увеличена на 10%
+					Включает автострельбу для дальнего оружия
+					'''
+				DisplayName: Спусковые пальцы
+			}
+
+			RobinsQuiver: {
+				Tooltip:
+					'''
+					Урон стрел увеличен на 15%, скорость стрел сильно увеличена
+					20% шанс не потратить стрелу
+					'Сражайся за справедливость!'
+					'''
+				DisplayName: Колчан Робина
+			}
+
+			RainbowQuiver: {
+				Tooltip:
+					'''
+					Увеличивает скорость стрел
+					Деревянные стрелы могут превратиться в случайные
+					20% шанс не потратить стрелу
+					'''
+				DisplayName: Радужный колчан
+			}
+
+			Quiver: {
+				Tooltip: 10% шанс не потратить стрелу
+				DisplayName: Колчан
+			}
+
+			HellfireQuiver: {
+				Tooltip:
+					'''
+					Урон стрел увеличен на 10%, скорость стрел сильно увеличена
+					20% шанс не потратить стрелу
+					Поджигает деревянные стрелы адским огнём
+					'Враги сгорят в муках'
+					'''
+				DisplayName: Колчан адского огня
+			}
+
+			Backstabber: {
+				DisplayName: Удар в спину
+				Tooltip:
+					'''
+					Увеличенный урон ближнего боя в спину
+					'И ты, Брут?'
+					'''
+			}
+
+			Helltaker: {
+				DisplayName: Helltaker
+				Tooltip:
+					'''
+					Сильно увеличенный огненный урон ближнего боя в спину
+					'А ты?'
+					'''
+			}
+
+			AngelicShadowBag: {
+				DisplayName: Сумка ангельской тени
+				Tooltip:
+					'''
+					Увеличивает максимальное число миньонов на 1
+					Урон призывателя по врагам Искажения и Освящения увеличен на 50%
+					'Проклятые молитвы'
+					'''
+			}
+
+			BlessedVesica: {
+				DisplayName: Благословенный пузырь
+				Tooltip:
+					'''
+					Увеличивает максимальное число миньонов на 1
+					Урон призывателя по врагам Багрянца и Освящения увеличен на 50%
+					'Божественный сок'
+					'''
+			}
+
+			DivineWallet: {
+				DisplayName: Божественный кошелёк
+				Tooltip:
+					'''
+					Увеличивает максимальное число миньонов на 1
+					Урон призывателя по врагам Освящения увеличен на 50%
+					'Они заплатят у врат Небес'
+					'''
+			}
+
+			EldritchBelt: {
+				DisplayName: Жуткий пояс
+				Tooltip:
+					'''
+					Увеличивает максимальное число миньонов на 1
+					Урон призывателя по врагам Искажения увеличен на 50%
+					'Бей врагов в спину'
+					'''
+			}
+
+			VesicaUrinaria: {
+				DisplayName: Пузырь
+				Tooltip:
+					'''
+					Увеличивает максимальное число миньонов на 1
+					Урон призывателя по врагам Багрянца увеличен на 50%
+					'Сочный мешочек'
+					'''
+			}
+
+			HadessBoots: {
+				DisplayName: Сапоги Аида
+				Tooltip:
+					'''
+					Позволяют летать
+					Носитель может очень быстро бегать
+					Оставляет за собой огненный след
+					Дарует иммунитет к отбрасыванию и огненным блокам
+					Отменяет урон от падения
+					'''
+			}
+
+			RustyHorseshoe: {
+				DisplayName: Ржавая подкова
+				Tooltip:
+					'''
+					Дарует иммунитет к отбрасыванию и огненным блокам
+					Отменяет урон от падения
+					'''
+			}
+
+			MagnifyingGlass: {
+				Tooltip: Шанс критического удара увеличен на 3%
+				DisplayName: Лупа
+			}
+
+			ShadowflameSpirit: {
+				Tooltip: Большинство магических жезлов получают особые эффекты
+				DisplayName: Дух теневого пламени
+			}
+
+			ManaBand: {
+				Tooltip: ""
+				DisplayName: Кольцо маны
+			}
+
+			MagicCrystal: {
+				Tooltip: 15% шанс не потратить ману
+				DisplayName: Магический кристалл
+			}
+
+			ForbiddenPage: {
+				Tooltip: Большинство магических книг получают особые эффекты
+				DisplayName: Запретная страница
+			}
+
+			SorcerersBand: {
+				DisplayName: Кольцо чародея
+				Tooltip: Эффект зелий восстановления маны увеличен на 15%
+			}
+
+			BandOfRecovery: {
+				DisplayName: Кольцо восстановления
+				Tooltip: Эффект зелий лечения увеличен на 15%
+			}
+
+			SonarDevice: {
+				DisplayName: Гидролокатор
+				Tooltip: ""
+			}
+
+			NebulaEmblem: {
+				DisplayName: Эмблема туманности
+				Tooltip: ""
+			}
+
+			SolarEmblem: {
+				DisplayName: Солнечная эмблема
+				Tooltip: ""
+			}
+
+			VortexEmblem: {
+				DisplayName: Эмблема вихря
+				Tooltip: ""
+			}
+
+			StardustEmblem: {
+				DisplayName: Эмблема звёздной пыли
+				Tooltip: ""
+			}
+
+			AntiqueTechnology: {
+				DisplayName: Антикварная технология
+				Tooltip:
+					'''
+					Скорость добычи увеличена на 25%
+					Показывает самую ценную руду поблизости
+					'''
+			}
+
+			FrenzyPotion: {
+				DisplayName: Зелье ярости
+				Tooltip: Критические удары наносят больше урона и отбрасывания
+			}
+
+			BouncePotion: {
+				DisplayName: Зелье прыгучести
+				Tooltip: Увеличивает скорость прыжка и позволяет прыгать автоматически
+			}
+
+			EaglePrecisionPotion: {
+				DisplayName: Зелье орлиной точности
+				Tooltip: Увеличивает урон и скорость пуль и дротиков
+			}
+
+			MobilityPotion: {
+				DisplayName: Зелье подвижности
+				Tooltip: Увеличивает скорость передвижения и ускорение
+			}
+
+			PetalPotion: {
+				DisplayName: Зелье лепестка
+				Tooltip: Увеличивает пробитие брони на 10
+			}
+
+			PiercingPotion: {
+				DisplayName: Зелье пробивания
+				Tooltip: Увеличивает пробитие брони на 10
+			}
+
+			BatFang: {
+				Tooltip: Миньоны имеют шанс наложить на врагов несколько дебаффов
+				DisplayName: Клык летучей мыши
+			}
+
+			EbonstoneGolemHead: {
+				DisplayName: Голова эбонитового голема
+				Tooltip: Можно надеть или поставить
+			}
+
+			CrimstoneGolemHead: {
+				DisplayName: Голова багрового голема
+				Tooltip: Можно надеть или поставить
+			}
+
+			PearlstoneGolemHead: {
+				DisplayName: Голова жемчужного голема
+				Tooltip: Можно надеть или поставить
+			}
+
+			MechanicHelmet: {
+				DisplayName: Шлем механика
+				Tooltip:
+					'''
+					На 33% меньше урона и длительности дебаффов от ловушек
+					Позволяет видеть провода
+					'''
+			}
+
+			GoblinShamanMask: {
+				DisplayName: Маска шамана
+				Tooltip:
+					'''
+					Продлевает наложенные игроком «Отравление» и «Кислотный яд» на 2 секунды
+					Дарует иммунитет к «Проклятию» и «Замедлению»
+					'''
+			}
+
+			BloodZombieArm: {
+				DisplayName: Рука кровавого зомби
+				Tooltip: Накладывает кровотечение на 2 секунды
+			}
+
+			SporeZombieArm: {
+				DisplayName: Рука зомби со спорами
+				Tooltip: Накладывает замешательство на 1 секунду
+			}
+
+			EbonstoneGolemBanner: {
+				DisplayName: Знамя эбонитового голема
+				Tooltip: "Игроки поблизости получают бонус против: Эбонитовый голем"
+			}
+
+			CrimstoneGolemBanner: {
+				DisplayName: Знамя багрового голема
+				Tooltip: "Игроки поблизости получают бонус против: Багровый голем"
+			}
+
+			PearlstoneGolemBanner: {
+				DisplayName: Знамя жемчужного голема
+				Tooltip: "Игроки поблизости получают бонус против: Жемчужный голем"
+			}
+
+			GoblinMechanicBanner: {
+				DisplayName: Знамя гоблина-механика
+				Tooltip: "Игроки поблизости получают бонус против: Гоблин-механик"
+			}
+
+			GoblinShamanBanner: {
+				DisplayName: Знамя гоблина-шамана
+				Tooltip: "Игроки поблизости получают бонус против: Гоблин-шаман"
+			}
+
+			GoldCockatielItem: {
+				DisplayName: Золотая корелла
+				Tooltip: ""
+			}
+
+			GoldDuckItem: {
+				DisplayName: Золотая утка
+				Tooltip: ""
+			}
+
+			GoldMacawItem: {
+				DisplayName: Золотой ара
+				Tooltip: ""
+			}
+
+			GoldOwlItem: {
+				DisplayName: Золотая сова
+				Tooltip: ""
+			}
+
+			GoldPenguinItem: {
+				DisplayName: Золотой пингвин
+				Tooltip: ""
+			}
+
+			GoldScorpionItem: {
+				DisplayName: Золотой скорпион
+				Tooltip: ""
+			}
+
+			GoldSeagullItem: {
+				DisplayName: Золотая чайка
+				Tooltip: ""
+			}
+
+			GoldToucanItem: {
+				DisplayName: Золотой тукан
+				Tooltip: ""
+			}
+
+			GoldTurtleItem: {
+				DisplayName: Золотая черепаха
+				Tooltip: ""
+			}
+		}
+
+		NPCs: {
+			CrimstoneGolem.DisplayName: Багровый голем
+			PearlstoneGolem.DisplayName: Жемчужный голем
+			GoblinMechanic.DisplayName: Гоблин-механик
+			GoblinShaman.DisplayName: Гоблин-шаман
+			BattleBallista.DisplayName: Боевая баллиста
+			BloodZombieArmed.DisplayName: Кровавый зомби (вооружённый)
+			SporeZombieArmed.DisplayName: Зомби со спорами (вооружённый)
+			GoldCockatiel.DisplayName: Золотая корелла
+			GoldDuck.DisplayName: Золотая утка
+			GoldMacaw.DisplayName: Золотой ара
+			GoldOwl.DisplayName: Золотая сова
+			GoldPenguin.DisplayName: Золотой пингвин
+			GoldScorpion.DisplayName: Золотой скорпион
+			GoldSeagull.DisplayName: Золотая чайка
+			GoldToucan.DisplayName: Золотой тукан
+			GoldTurtle.DisplayName: Золотая черепаха
+			EbonstoneGolem.DisplayName: Эбонитовый голем
+		}
+
+		Projectiles: {
+			ShadowflameBulletProjectile.DisplayName: Пуля теневого пламени
+			JaggedArrowProj.DisplayName: Зазубренная стрела
+			Icicle.DisplayName: Сосулька
+			HellfireBulletProjectile.DisplayName: Пуля адского огня
+			EbonstoneBoulderProjectileFTW.DisplayName: Осколок эбонитового валуна
+			EbonstoneBoulderProjectile.DisplayName: Эбонитовый валун
+			BattleBallistaProjectile.DisplayName: Болт баллисты
+			CrimstoneBoulderProjectile.DisplayName: Багровый валун
+			CrimstoneBoulderProjectileFTW.DisplayName: Осколок багрового валуна
+			CrimstoneRock.DisplayName: Багровый камень
+			EbonstoneRock.DisplayName: Эбонитовый камень
+			PearlstoneBoulderProjectile.DisplayName: Жемчужный валун
+			PearlstoneBoulderProjectileFTW.DisplayName: Осколок жемчужного валуна
+			PearlstoneRock.DisplayName: Жемчужный камень
+		}
+
+		Buffs: {
+			Magnetism: {
+				DisplayName: Магнетизм
+				Description: Увеличен радиус подбора предметов
+			}
+
+			FishermansLuck: {
+				DisplayName: Рыбацкая удача
+				Description: Увеличено количество пойманной рыбы
+			}
+
+			GemRushTopaz: {
+				Description: Скорость добычи увеличена на 15%
+				DisplayName: "Самоцветный азарт (топаз)"
+			}
+
+			GemRushSapphire: {
+				Description: Скорость добычи увеличена на 25%
+				DisplayName: "Самоцветный азарт (сапфир)"
+			}
+
+			GemRushRuby: {
+				Description: Скорость добычи увеличена на 25%
+				DisplayName: "Самоцветный азарт (рубин)"
+			}
+
+			GemRushEmerald: {
+				Description: Скорость добычи увеличена на 20%
+				DisplayName: "Самоцветный азарт (изумруд)"
+			}
+
+			GemRushDiamond: {
+				Description: Скорость добычи увеличена на 25%
+				DisplayName: "Самоцветный азарт (алмаз)"
+			}
+
+			GemRushAmethyst: {
+				Description: Скорость добычи увеличена на 15%
+				DisplayName: "Самоцветный азарт (аметист)"
+			}
+
+			GemRushAmber: {
+				Description: Скорость добычи увеличена на 25%
+				DisplayName: "Самоцветный азарт (янтарь)"
+			}
+
+			SentryMaster: {
+				DisplayName: Мастер турелей
+				Description: Увеличено максимальное число турелей
+			}
+
+			WeaponImbue_Shadowflame: {
+				DisplayName: "Зачарование оружия: теневое пламя"
+				Description: Атаки ближнего боя и хлыстов поджигают врагов теневым пламенем
+			}
+
+			Adrenaline: {
+				DisplayName: Адреналин
+				Description: Урон и скорость растут, а защита падает по мере потери здоровья
+			}
+
+			Resistance: {
+				DisplayName: Сопротивление
+				Description: Иммунитет к отбрасыванию
+			}
+
+			Adamantite: {
+				DisplayName: Адамантит
+				Description: Укреплено адамантитом
+			}
+
+			Bounce: {
+				DisplayName: Прыгучесть
+				Description: Увеличена скорость прыжка, доступен автопрыжок
+			}
+
+			EaglePrecision: {
+				DisplayName: Орлиная точность
+				Description: Увеличены урон и скорость пуль и дротиков
+			}
+
+			Grounded: {
+				DisplayName: Заземление
+				Description: Получаете урон, пока не стоите на земле
+			}
+
+			Mobility: {
+				DisplayName: Подвижность
+				Description: Увеличены скорость передвижения и ускорение
+			}
+
+			Overweight: {
+				DisplayName: Перегруз
+				Description: Вы стали гораздо тяжелее
+			}
+
+			Petal: {
+				DisplayName: Лепесток
+				Description: Пробитие брони увеличено на 10
+			}
+
+			Piercing: {
+				DisplayName: Пробивание
+				Description: Пробитие брони увеличено на 10
+			}
+
+			Providence: {
+				DisplayName: Провидение
+				Description: Нельзя использовать жезл раздора и жезл гармонии
+			}
+
+			WeaponImbue_Grounded: {
+				DisplayName: "Зачарование оружия: заземление"
+				Description: Атаки ближнего боя и хлыстов накладывают заземление
+			}
+
+			Frenzy: {
+				DisplayName: Ярость
+				Description: Критические удары наносят больше урона и отбрасывания
+			}
+
+			PhantomDecay: {
+				DisplayName: Призрачный распад
+				Description: Теряете ману
+			}
+
+			WeaponImbue_Frostbite: {
+				DisplayName: "Зачарование оружия: обморожение"
+				Description: Атаки ближнего боя и хлыстов накладывают обморожение
+			}
+
+			WeaponImbue_Frostburn: {
+				DisplayName: "Зачарование оружия: морозный ожог"
+				Description: Атаки ближнего боя и хлыстов накладывают морозный ожог
+			}
+
+			WeaponImbue_Hellfire: {
+				DisplayName: "Зачарование оружия: адский огонь"
+				Description: Атаки ближнего боя и хлыстов поджигают врагов адским огнём
+			}
+		}
+
+		InfoDisplays: {
+			AnxietyDisplay.DisplayName: Агрессия
+			LifeRegenDisplay.DisplayName: Регенерация здоровья
+			LuckDisplay.DisplayName: Удача игрока
+			QuestFishDisplay.DisplayName: Квестовая рыба на сегодня
+			TotalRareCreaturesDisplay.DisplayName: Редкие существа рядом
+			RampageQuestDisplay.DisplayName: В розыске!
+			XYDisplay.DisplayName: Координаты
+			AnxietyRadarDisplay.DisplayName: Радар тревоги
+			CardiographDisplay.DisplayName: Кардиограф
+			DebugXYDisplay.DisplayName: Отладка XY
+			FishingScheduleDisplay.DisplayName: Рыболовное расписание
+			LifeformDetectorDisplay.DisplayName: Детектор живности
+			LuckyCloverDisplay.DisplayName: Счастливый клевер
+		}
+
+		InfoText: {
+			Aggro: агрессия
+			Deaggro: снижение агрессии
+			Luck: удача
+			BadLuck: неудача
+			LifeRegen: ОЗ/сек
+			LifeDamage: урон/сек
+			AnglerNotSaved: Рыбак не спасён!
+			RareCreaturesNearby: Рядом редкие существа
+			NoRareCreatures: Рядом нет редких существ
+		}
+
+		TileMapDisplayName.LithiumOre: Литий
+		Tiles.LithiumOre_Tile.MapEntry: Литиевая руда
+
+		Bestiary: {
+			EbonstoneGolem: Громоздкий эбонитовый голем. Швыряет проклятые камни в кавернах.
+			CrimstoneGolem: Окровавленный каменный голем. Его камни оставляют ихор.
+			PearlstoneGolem: Перламутровый голем, чьи удары дезориентируют врагов.
+			GoblinMechanic: Гоблин-осадный инженер. Ставит баллисты, чтобы прижать горожан и искателей приключений.
+			GoblinShaman: Поддерживающий маг: снимает проклятия с гоблинов или лечит их раны.
+			BattleBallista: Гоблинская баллиста. Стреляет бронебойными болтами по игрокам и горожанам.
+			BloodZombieArmed: Кровавый зомби, всё ещё сжимающий оторванную руку как оружие.
+			SporeZombieArmed: Заражённый спорами зомби, размахивающий рукой в грибной корке.
+			GoldCritter: Редкая золотая разновидность знакомого существа. Коллекционеры платят за них состояние.
+		}
+	}
+}

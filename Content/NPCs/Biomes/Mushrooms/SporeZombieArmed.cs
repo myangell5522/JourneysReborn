@@ -27,7 +27,7 @@ namespace JourneysReborn.Content.NPCs.Biomes.Mushrooms
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[]
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.UndergroundMushroom,
-                new FlavorTextBestiaryInfoElement("A spore-infected zombie swinging a mushroom-crusted arm.")
+                new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.SporeZombieArmed")
             });
         }
 

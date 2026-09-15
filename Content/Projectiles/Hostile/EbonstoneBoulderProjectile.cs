@@ -72,7 +72,7 @@ namespace JourneysReborn.Content.Projectiles.Hostile
 
         public override bool OnTileCollide(Vector2 oldVelocity)
         {
-            if (Main.getGoodWorld && MiniType > 0)
+            if (Main.getGoodWorld && MiniType > 0 && Main.netMode != NetmodeID.MultiplayerClient)
             {
                 int count = Main.rand.Next(2, 5);
                 for (int i = 0; i < count; i++)

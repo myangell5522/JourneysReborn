@@ -38,7 +38,7 @@ namespace JourneysReborn.Content.NPCs.Friendly.Critters
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[]
             {
                 SpawnBiome,
-                new FlavorTextBestiaryInfoElement("A rare golden variant of a familiar critter. Collectors pay a fortune for them.")
+                new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.GoldCritter")
             });
         }
 

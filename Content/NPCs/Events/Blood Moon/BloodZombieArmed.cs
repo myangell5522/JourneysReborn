@@ -29,7 +29,7 @@ namespace JourneysReborn.Content.NPCs.Events.BloodMoon
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[]
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Events.BloodMoon,
-                new FlavorTextBestiaryInfoElement("A blood zombie still clutching a severed arm as a weapon.")
+                new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.BloodZombieArmed")
             });
         }
 

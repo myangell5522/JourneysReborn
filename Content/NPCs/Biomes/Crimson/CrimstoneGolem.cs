@@ -22,7 +22,7 @@ namespace JourneysReborn.Content.NPCs.Biomes.Crimson
         {
             BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.TheCrimson,
             BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Caverns,
-            new FlavorTextBestiaryInfoElement("A blood-soaked stone golem. Its thrown rocks leave lingering ichor.")
+            new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.CrimstoneGolem")
         };
 
         protected override bool InCorrectBiome(NPCSpawnInfo spawnInfo) => spawnInfo.Player.ZoneCrimson;

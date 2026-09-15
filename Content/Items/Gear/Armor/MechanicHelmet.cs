@@ -37,6 +37,7 @@ namespace JourneysReborn.Content.Items.Gear.Armor
         private static readonly int[] TrapDebuffs = { BuffID.OnFire, BuffID.OnFire3, BuffID.Poisoned, BuffID.Venom, BuffID.CursedInferno, BuffID.Frostburn, BuffID.Frostburn2 };
 
         public bool equipped;
+        private bool shrinkTrapDebuffs;
 
         public override void ResetEffects()
         {
@@ -51,9 +52,19 @@ namespace JourneysReborn.Content.Items.Gear.Armor
             modifiers.FinalDamage *= 0.67f;
         }
 
-        public override void OnHurt(Player.HurtInfo info)
+        public override void OnHitByProjectile(Projectile projectile, Player.HurtInfo hurtInfo)
         {
-            if (!equipped || !IsTrap(info.DamageSource))
+            if (equipped && projectile.trap)
+                shrinkTrapDebuffs = true;
+        }
+
+        public override void PostUpdateBuffs()
+        {
+            if (!shrinkTrapDebuffs)
+                return;
+
+            shrinkTrapDebuffs = false;
+            if (!equipped)
                 return;
 
             for (int i = 0; i < Player.MaxBuffs; i++)
@@ -82,7 +93,7 @@ namespace JourneysReborn.Content.Items.Gear.Armor
                     return true;
             }
 
-            return source.SourceOtherIndex is 3 or 4 or 19;
+            return false;
         }
     }
 }

@@ -47,7 +47,7 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[]
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Invasions.Goblins,
-                new FlavorTextBestiaryInfoElement("A goblin siege engineer. It deploys ballistae to pin down townsfolk and adventurers.")
+                new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.GoblinMechanic")
             });
         }
 
@@ -117,7 +117,7 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[]
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Invasions.Goblins,
-                new FlavorTextBestiaryInfoElement("A support caster that strips curses from fellow goblins or mends their wounds.")
+                new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.GoblinShaman")
             });
         }
 
@@ -141,6 +141,9 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
                 return;
 
             ritualTimer = Main.rand.Next(240, 421);
+            if (Main.netMode == NetmodeID.MultiplayerClient)
+                return;
+
             Rectangle area = new Rectangle((int)NPC.Center.X - 240, (int)NPC.Center.Y - 240, 480, 480);
 
             for (int i = 0; i < Main.maxNPCs; i++)
@@ -173,6 +176,7 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
                         goblin.HealEffect(heal, true);
                 }
 
+                goblin.netUpdate = true;
                 for (int d = 0; d < 8; d++)
                     Dust.NewDust(goblin.position, goblin.width, goblin.height, DustID.GreenTorch, 0f, -1f, 150);
             }
@@ -219,7 +223,7 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[]
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Invasions.Goblins,
-                new FlavorTextBestiaryInfoElement("A goblin-built ballista. It fires armor-piercing bolts at players and townsfolk.")
+                new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.BattleBallista")
             });
         }
 

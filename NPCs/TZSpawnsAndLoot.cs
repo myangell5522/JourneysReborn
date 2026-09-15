@@ -35,7 +35,9 @@ namespace JourneysReborn.NPCs
 
         public override void OnSpawn(NPC npc, IEntitySource source)
         {
-            if (npc.ModNPC is GoldCritter)
+            if (Main.netMode == NetmodeID.MultiplayerClient)
+                return;
+            if (npc.SpawnedFromStatue || npc.ModNPC is GoldCritter)
                 return;
 
             TryGold(npc, NPCID.Duck, NPCID.Duck2, ModContent.NPCType<GoldDuck>());

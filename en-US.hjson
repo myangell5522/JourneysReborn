@@ -308,12 +308,12 @@ Mods: {
 			}
 
 			LifeformDetectorCrimson: {
-				Tooltip: Displays total amout of rare creatures around you
+				Tooltip: Displays total amount of rare creatures around you
 				DisplayName: Lifeform Detector
 			}
 
 			LifeformDetectorCorruption: {
-				Tooltip: Displays total amout of rare creatures around you
+				Tooltip: Displays total amount of rare creatures around you
 				DisplayName: Lifeform Detector
 			}
 
@@ -425,7 +425,7 @@ Mods: {
 
 			DryadsAmulet: {
 				DisplayName: Dryad's Amulet
-				Tooltip: Re-adresses some damage from town NPCs to you
+				Tooltip: Redirects some damage from town NPCs to you
 			}
 
 			HunterLens: {
@@ -452,7 +452,7 @@ Mods: {
 				Tooltip:
 					'''
 					Ignores 5 points of enemy Defense
-					'Stop bulliying an enemy named Defense'
+					'Stop bullying an enemy named Defense'
 					            
 					'''
 				DisplayName: Mandible Scissors
@@ -474,7 +474,7 @@ Mods: {
 					Bounces off walls up to 4 times
 					Damage increases with each bounce up to 2 times by 3
 					Ignores 5 points of enemy Defense
-					'Stop bulliying an enemy named Defense'
+					'Stop bullying an enemy named Defense'
 					'''
 				DisplayName: Jagged Arrow
 			}
@@ -723,7 +723,7 @@ Mods: {
 
 			PetalPotion: {
 				DisplayName: Petal Potion
-				Tooltip: ""
+				Tooltip: Increases armor penetration by 10
 			}
 
 			PiercingPotion: {
@@ -871,19 +871,19 @@ Mods: {
 		}
 
 		Projectiles: {
-			ShadowflameBulletProjectile.DisplayName: Shadowflame Bullet Projectile
-			JaggedArrowProj.DisplayName: Jagged Arrow Proj
+			ShadowflameBulletProjectile.DisplayName: Shadowflame Bullet
+			JaggedArrowProj.DisplayName: Jagged Arrow
 			Icicle.DisplayName: Icicle
-			HellfireBulletProjectile.DisplayName: Hellfire Bullet Projectile
-			EbonstoneBoulderProjectileFTW.DisplayName: Ebonstone Boulder Projectile F T W
-			EbonstoneBoulderProjectile.DisplayName: Ebonstone Boulder Projectile
-			BattleBallistaProjectile.DisplayName: Battle Ballista Projectile
-			CrimstoneBoulderProjectile.DisplayName: Crimstone Boulder Projectile
-			CrimstoneBoulderProjectileFTW.DisplayName: Crimstone Boulder Projectile F T W
+			HellfireBulletProjectile.DisplayName: Hellfire Bullet
+			EbonstoneBoulderProjectileFTW.DisplayName: Ebonstone Boulder Shard
+			EbonstoneBoulderProjectile.DisplayName: Ebonstone Boulder
+			BattleBallistaProjectile.DisplayName: Ballista Bolt
+			CrimstoneBoulderProjectile.DisplayName: Crimstone Boulder
+			CrimstoneBoulderProjectileFTW.DisplayName: Crimstone Boulder Shard
 			CrimstoneRock.DisplayName: Crimstone Rock
 			EbonstoneRock.DisplayName: Ebonstone Rock
-			PearlstoneBoulderProjectile.DisplayName: Pearlstone Boulder Projectile
-			PearlstoneBoulderProjectileFTW.DisplayName: Pearlstone Boulder Projectile F T W
+			PearlstoneBoulderProjectile.DisplayName: Pearlstone Boulder
+			PearlstoneBoulderProjectileFTW.DisplayName: Pearlstone Boulder Shard
 			PearlstoneRock.DisplayName: Pearlstone Rock
 		}
 
@@ -955,22 +955,22 @@ Mods: {
 
 			Adamantite: {
 				DisplayName: Adamantite
-				Description: Mods.JourneysReborn.Buffs.Adamantite.Description
+				Description: Fortified by adamantite
 			}
 
 			Bounce: {
 				DisplayName: Bounce
-				Description: Mods.JourneysReborn.Buffs.Bounce.Description
+				Description: Increased jump speed and auto-jump
 			}
 
 			EaglePrecision: {
 				DisplayName: Eagle Precision
-				Description: Mods.JourneysReborn.Buffs.EaglePrecision.Description
+				Description: Increased bullet and dart damage and velocity
 			}
 
 			Grounded: {
 				DisplayName: Grounded
-				Description: Mods.JourneysReborn.Buffs.Grounded.Description
+				Description: Taking damage while off the ground
 			}
 
 			Mobility: {
@@ -980,12 +980,12 @@ Mods: {
 
 			Overweight: {
 				DisplayName: Overweight
-				Description: Mods.JourneysReborn.Buffs.Overweight.Description
+				Description: You are much heavier
 			}
 
 			Petal: {
 				DisplayName: Petal
-				Description: Mods.JourneysReborn.Buffs.Petal.Description
+				Description: Increased armor penetration by 10
 			}
 
 			Piercing: {
@@ -995,12 +995,12 @@ Mods: {
 
 			Providence: {
 				DisplayName: Providence
-				Description: Mods.JourneysReborn.Buffs.Providence.Description
+				Description: Cannot use the Rod of Discord or Rod of Harmony
 			}
 
 			WeaponImbue_Grounded: {
-				DisplayName: Weapon Imbue_ Grounded
-				Description: Mods.JourneysReborn.Buffs.WeaponImbue_Grounded.Description
+				DisplayName: "Weapon Imbue: Grounded"
+				Description: Melee and Whip attacks inflict Grounded
 			}
 
 			Frenzy: {
@@ -1031,7 +1031,7 @@ Mods: {
 
 		InfoDisplays: {
 			AnxietyDisplay.DisplayName: Aggro
-			LifeRegenDisplay.DisplayName: Life Regenetation
+			LifeRegenDisplay.DisplayName: Life Regeneration
 			LuckDisplay.DisplayName: Player's Luck
 			QuestFishDisplay.DisplayName: Today's Quest Fish
 			TotalRareCreaturesDisplay.DisplayName: Amount of Rare Creatures Nearby
@@ -1058,6 +1058,18 @@ Mods: {
 		}
 
 		TileMapDisplayName.LithiumOre: Lithium
-		Tiles.LithiumOre_Tile.MapEntry: Lithium Ore_ Tile
+		Tiles.LithiumOre_Tile.MapEntry: Lithium Ore
+
+		Bestiary: {
+			EbonstoneGolem: A hulking ebonstone construct that hurls cursed rock through the caverns.
+			CrimstoneGolem: A blood-soaked stone golem. Its thrown rocks leave lingering ichor.
+			PearlstoneGolem: A pearlescent golem whose strikes leave foes disoriented.
+			GoblinMechanic: A goblin siege engineer. It deploys ballistae to pin down townsfolk and adventurers.
+			GoblinShaman: A support caster that strips curses from fellow goblins or mends their wounds.
+			BattleBallista: A goblin-built ballista. It fires armor-piercing bolts at players and townsfolk.
+			BloodZombieArmed: A blood zombie still clutching a severed arm as a weapon.
+			SporeZombieArmed: A spore-infected zombie swinging a mushroom-crusted arm.
+			GoldCritter: A rare golden variant of a familiar critter. Collectors pay a fortune for them.
+		}
 	}
 }

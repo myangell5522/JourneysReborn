@@ -22,7 +22,7 @@ namespace JourneysReborn.Content.NPCs.Biomes.Corruption
         {
             BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.TheCorruption,
             BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Caverns,
-            new FlavorTextBestiaryInfoElement("A hulking ebonstone construct that hurls cursed rock through the caverns.")
+            new FlavorTextBestiaryInfoElement("Mods.JourneysReborn.Bestiary.EbonstoneGolem")
         };
 
         protected override bool InCorrectBiome(NPCSpawnInfo spawnInfo) => spawnInfo.Player.ZoneCorrupt;

@@ -34,7 +34,7 @@ namespace JourneysReborn.Common
                     return true;
             }
 
-            return info.DamageSource.SourceOtherIndex is 3 or 4 or 19;
+            return false;
         }
     }
 }
