@@ -999,7 +999,7 @@ Mods: {
 			}
 
 			WeaponImbue_Grounded: {
-				DisplayName: "Weapon Imbue: Grounded"
+				DisplayName: Weapon Imbue: Grounded
 				Description: Melee and Whip attacks inflict Grounded
 			}
 

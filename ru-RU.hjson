@@ -780,27 +780,27 @@ Mods: {
 
 			EbonstoneGolemBanner: {
 				DisplayName: Знамя эбонитового голема
-				Tooltip: "Игроки поблизости получают бонус против: Эбонитовый голем"
+				Tooltip: Игроки поблизости получают бонус против: Эбонитовый голем
 			}
 
 			CrimstoneGolemBanner: {
 				DisplayName: Знамя багрового голема
-				Tooltip: "Игроки поблизости получают бонус против: Багровый голем"
+				Tooltip: Игроки поблизости получают бонус против: Багровый голем
 			}
 
 			PearlstoneGolemBanner: {
 				DisplayName: Знамя жемчужного голема
-				Tooltip: "Игроки поблизости получают бонус против: Жемчужный голем"
+				Tooltip: Игроки поблизости получают бонус против: Жемчужный голем
 			}
 
 			GoblinMechanicBanner: {
 				DisplayName: Знамя гоблина-механика
-				Tooltip: "Игроки поблизости получают бонус против: Гоблин-механик"
+				Tooltip: Игроки поблизости получают бонус против: Гоблин-механик
 			}
 
 			GoblinShamanBanner: {
 				DisplayName: Знамя гоблина-шамана
-				Tooltip: "Игроки поблизости получают бонус против: Гоблин-шаман"
+				Tooltip: Игроки поблизости получают бонус против: Гоблин-шаман
 			}
 
 			GoldCockatielItem: {
@@ -899,37 +899,37 @@ Mods: {
 
 			GemRushTopaz: {
 				Description: Скорость добычи увеличена на 15%
-				DisplayName: "Самоцветный азарт (топаз)"
+				DisplayName: Самоцветный азарт (топаз)
 			}
 
 			GemRushSapphire: {
 				Description: Скорость добычи увеличена на 25%
-				DisplayName: "Самоцветный азарт (сапфир)"
+				DisplayName: Самоцветный азарт (сапфир)
 			}
 
 			GemRushRuby: {
 				Description: Скорость добычи увеличена на 25%
-				DisplayName: "Самоцветный азарт (рубин)"
+				DisplayName: Самоцветный азарт (рубин)
 			}
 
 			GemRushEmerald: {
 				Description: Скорость добычи увеличена на 20%
-				DisplayName: "Самоцветный азарт (изумруд)"
+				DisplayName: Самоцветный азарт (изумруд)
 			}
 
 			GemRushDiamond: {
 				Description: Скорость добычи увеличена на 25%
-				DisplayName: "Самоцветный азарт (алмаз)"
+				DisplayName: Самоцветный азарт (алмаз)
 			}
 
 			GemRushAmethyst: {
 				Description: Скорость добычи увеличена на 15%
-				DisplayName: "Самоцветный азарт (аметист)"
+				DisplayName: Самоцветный азарт (аметист)
 			}
 
 			GemRushAmber: {
 				Description: Скорость добычи увеличена на 25%
-				DisplayName: "Самоцветный азарт (янтарь)"
+				DisplayName: Самоцветный азарт (янтарь)
 			}
 
 			SentryMaster: {
@@ -938,7 +938,7 @@ Mods: {
 			}
 
 			WeaponImbue_Shadowflame: {
-				DisplayName: "Зачарование оружия: теневое пламя"
+				DisplayName: Зачарование оружия: теневое пламя
 				Description: Атаки ближнего боя и хлыстов поджигают врагов теневым пламенем
 			}
 
@@ -998,7 +998,7 @@ Mods: {
 			}
 
 			WeaponImbue_Grounded: {
-				DisplayName: "Зачарование оружия: заземление"
+				DisplayName: Зачарование оружия: заземление
 				Description: Атаки ближнего боя и хлыстов накладывают заземление
 			}
 
@@ -1013,17 +1013,17 @@ Mods: {
 			}
 
 			WeaponImbue_Frostbite: {
-				DisplayName: "Зачарование оружия: обморожение"
+				DisplayName: Зачарование оружия: обморожение
 				Description: Атаки ближнего боя и хлыстов накладывают обморожение
 			}
 
 			WeaponImbue_Frostburn: {
-				DisplayName: "Зачарование оружия: морозный ожог"
+				DisplayName: Зачарование оружия: морозный ожог
 				Description: Атаки ближнего боя и хлыстов накладывают морозный ожог
 			}
 
 			WeaponImbue_Hellfire: {
-				DisplayName: "Зачарование оружия: адский огонь"
+				DisplayName: Зачарование оружия: адский огонь
 				Description: Атаки ближнего боя и хлыстов поджигают врагов адским огнём
 			}
 		}
