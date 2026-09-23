@@ -10,6 +10,11 @@ namespace JourneysReborn.Content.Projectiles.Hostile
         public abstract int InflictedBuff { get; }
         public abstract int BuffTime { get; }
 
+        public override void SetStaticDefaults()
+        {
+            Main.projFrames[Type] = 6;
+        }
+
         public override void SetDefaults()
         {
             Projectile.width = 16;
@@ -23,7 +28,12 @@ namespace JourneysReborn.Content.Projectiles.Hostile
 
         public override void AI()
         {
-            Projectile.rotation += Projectile.velocity.X * 0.1f;
+            if (++Projectile.frameCounter >= 5)
+            {
+                Projectile.frameCounter = 0;
+                Projectile.frame = (Projectile.frame + 1) % Main.projFrames[Type];
+            }
+
             Projectile.velocity.Y += 0.2f;
             if (Projectile.velocity.Y > 16f)
                 Projectile.velocity.Y = 16f;

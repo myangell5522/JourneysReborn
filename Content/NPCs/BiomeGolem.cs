@@ -10,7 +10,8 @@ namespace JourneysReborn.Content.NPCs
 {
     public abstract class BiomeGolem : ModNPC
     {
-        private int throwTimer;
+        private const int AttackLength = 100;
+        private const int AttackWindow = 32;
 
         public abstract int BlockItem { get; }
         public abstract int HeadItem { get; }
@@ -24,7 +25,9 @@ namespace JourneysReborn.Content.NPCs
 
         public override void SetStaticDefaults()
         {
-            Main.npcFrameCount[Type] = 37;
+            // Sheet is 60x1554: 21 frames of 74px, same layout as the Rock Golem.
+            // 37 cuts every pose in half.
+            Main.npcFrameCount[Type] = 21;
             JRHelpers.SetDebuffImmunity(Type,
                 BuffID.Poisoned, BuffID.Bleeding, BuffID.Confused,
                 BuffID.OnFire, BuffID.OnFire3);
@@ -45,6 +48,7 @@ namespace JourneysReborn.Content.NPCs
             NPC.rarity = 2;
             Banner = Type;
             BannerItem = BannerItemType;
+            AnimationType = NPCID.RockGolem;
         }
 
         public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
@@ -67,13 +71,33 @@ namespace JourneysReborn.Content.NPCs
 
         public override void PostAI()
         {
-            throwTimer++;
-            NPC.TargetClosest();
+            // Same ai[2] windup the Rock Golem sheet was drawn for: frames 0-7 walk, 10-20 throw.
+            NPC.TargetClosest(NPC.ai[2] > 0f);
             Player player = Main.player[NPC.target];
-            if (player.active && !player.dead && throwTimer >= 180 && Vector2.Distance(player.Center, NPC.Center) < 480f && Collision.CanHit(NPC.position, NPC.width, NPC.height, player.position, player.width, player.height))
+            bool inRange = player.active && !player.dead && Vector2.Distance(player.Center, NPC.Center) < 320f;
+            bool canHit = inRange && Collision.CanHit(NPC.position, NPC.width, NPC.height, player.position, player.width, player.height);
+
+            if (NPC.ai[2] == 0f)
             {
-                throwTimer = 0;
-                if (Main.netMode != NetmodeID.MultiplayerClient)
+                if (canHit)
+                {
+                    NPC.ai[2] = AttackLength;
+                    NPC.velocity.X = NPC.direction * 0.01f;
+                    NPC.netUpdate = true;
+                }
+                return;
+            }
+
+            if (NPC.ai[2] < AttackLength)
+            {
+                NPC.ai[2] += 1f;
+                NPC.velocity.X *= 0.9f;
+                if (System.Math.Abs(NPC.velocity.X) < 0.001f)
+                    NPC.velocity.X = 0f;
+                if (System.Math.Abs(NPC.velocity.Y) > 1f)
+                    NPC.ai[2] = 0f;
+
+                if (NPC.ai[2] == AttackLength - AttackWindow / 2f && Main.netMode != NetmodeID.MultiplayerClient && canHit && !player.Hitbox.Intersects(NPC.Hitbox))
                 {
                     Vector2 direction = player.Center - NPC.Center;
                     if (direction.LengthSquared() < 1f)
@@ -83,27 +107,14 @@ namespace JourneysReborn.Content.NPCs
                     direction.Y -= 2.5f;
                     Projectile.NewProjectile(NPC.GetSource_FromAI(), NPC.Center, direction, RockProjectile, RockDamage, 4f, Main.myPlayer);
                 }
-            }
-        }
-
-        public override void FindFrame(int frameHeight)
-        {
-            if (NPC.velocity.Y != 0f)
-            {
-                NPC.frame.Y = frameHeight * 4;
                 return;
             }
 
-            NPC.frameCounter += 0.15 + System.Math.Abs(NPC.velocity.X) * 0.08;
-            if (NPC.frameCounter > 4)
+            if (NPC.velocity.Y == 0f && canHit)
             {
-                NPC.frameCounter = 0;
-                NPC.frame.Y += frameHeight;
-                if (NPC.frame.Y > frameHeight * 3)
-                    NPC.frame.Y = 0;
+                NPC.ai[2] = AttackLength - AttackWindow;
+                NPC.netUpdate = true;
             }
-
-            NPC.spriteDirection = NPC.direction;
         }
 
         public override void HitEffect(NPC.HitInfo hit)

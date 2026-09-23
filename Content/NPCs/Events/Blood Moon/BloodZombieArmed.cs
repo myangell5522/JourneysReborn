@@ -4,6 +4,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using JourneysReborn.Content.Items.Gear.Weapons.Melee.Swords;
+using JourneysReborn.Content.NPCs;
 
 namespace JourneysReborn.Content.NPCs.Events.BloodMoon
 {
@@ -35,22 +36,7 @@ namespace JourneysReborn.Content.NPCs.Events.BloodMoon
 
         public override void FindFrame(int frameHeight)
         {
-            // 7-frame sheet: keep the extra overhead-swing frames in use while walking.
-            NPC.spriteDirection = NPC.direction;
-            if (NPC.velocity.Y != 0f)
-            {
-                NPC.frame.Y = frameHeight * 4;
-                return;
-            }
-
-            NPC.frameCounter += 0.2;
-            if (NPC.frameCounter > 4)
-            {
-                NPC.frameCounter = 0;
-                NPC.frame.Y += frameHeight;
-                if (NPC.frame.Y >= frameHeight * 7)
-                    NPC.frame.Y = 0;
-            }
+            ArmedZombieAnimation.FindFrame(NPC, frameHeight);
         }
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)

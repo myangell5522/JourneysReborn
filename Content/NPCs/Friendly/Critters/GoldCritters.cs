@@ -127,6 +127,47 @@ namespace JourneysReborn.Content.NPCs.Friendly.Critters
         public override int VanillaType => NPCID.Penguin;
         public override int CatchItem => ModContent.ItemType<GoldPenguinItem>();
         public override IBestiaryInfoElement SpawnBiome => BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Snow;
+
+        public override void SetStaticDefaults()
+        {
+            base.SetStaticDefaults();
+            // Vanilla penguin is 18 frames (28x504). This sheet is the first 9 frames (28x252).
+            Main.npcFrameCount[Type] = 9;
+        }
+
+        public override void FindFrame(int frameHeight)
+        {
+            int group = 0;
+            if (NPC.localAI[0] == 2f)
+                group = 3;
+            else if (NPC.localAI[0] == 3f || NPC.localAI[0] == 4f)
+                group = 6;
+
+            NPC.spriteDirection = NPC.direction;
+            if (NPC.velocity.Y != 0f)
+            {
+                NPC.frame.Y = (group + 2) * frameHeight;
+                return;
+            }
+
+            if (NPC.velocity.X == 0f)
+            {
+                NPC.frameCounter = 0;
+                NPC.frame.Y = group * frameHeight;
+                return;
+            }
+
+            NPC.frameCounter += System.Math.Abs(NPC.velocity.X);
+            int step = 0;
+            if (NPC.frameCounter >= 12)
+                step = 2;
+            else if (NPC.frameCounter >= 6)
+                step = 1;
+            if (NPC.frameCounter >= 15)
+                NPC.frameCounter = 0;
+
+            NPC.frame.Y = (group + step) * frameHeight;
+        }
     }
 
     public class GoldPenguinItem : GoldCritterItem
@@ -141,6 +182,19 @@ namespace JourneysReborn.Content.NPCs.Friendly.Critters
         public override int VanillaType => NPCID.Scorpion;
         public override int CatchItem => ModContent.ItemType<GoldScorpionItem>();
         public override IBestiaryInfoElement SpawnBiome => BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Desert;
+
+        public override void SetStaticDefaults()
+        {
+            base.SetStaticDefaults();
+            // Sheet is the black scorpion size (38x112), not the smaller yellow scorpion.
+            Main.npcFrameCount[Type] = Main.npcFrameCount[NPCID.ScorpionBlack];
+        }
+
+        public override void SetDefaults()
+        {
+            base.SetDefaults();
+            AnimationType = NPCID.ScorpionBlack;
+        }
     }
 
     public class GoldScorpionItem : GoldCritterItem

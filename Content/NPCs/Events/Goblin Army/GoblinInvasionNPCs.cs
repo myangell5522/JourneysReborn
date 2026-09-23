@@ -82,6 +82,7 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
     public class GoblinShaman : ModNPC
     {
         private int ritualTimer;
+        private int castFrame;
 
         public override string Texture => "JourneysReborn/Content/NPCs/Events/Goblin Army/GoblinShaman";
 
@@ -123,15 +124,17 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
 
         public override void FindFrame(int frameHeight)
         {
+            // Three poses stacked vertically, same layout as the Goblin Sorcerer: idle, cast, airborne.
             NPC.spriteDirection = NPC.direction;
-            NPC.frameCounter++;
-            if (NPC.frameCounter > 10)
-            {
-                NPC.frameCounter = 0;
-                NPC.frame.Y += frameHeight;
-                if (NPC.frame.Y >= frameHeight * 3)
-                    NPC.frame.Y = 0;
-            }
+            if (castFrame > 0)
+                castFrame--;
+
+            if (NPC.velocity.Y != 0f)
+                NPC.frame.Y = frameHeight * 2;
+            else if (castFrame > 0)
+                NPC.frame.Y = frameHeight;
+            else
+                NPC.frame.Y = 0;
         }
 
         public override void PostAI()
@@ -141,6 +144,7 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
                 return;
 
             ritualTimer = Main.rand.Next(240, 421);
+            castFrame = 30;
             if (Main.netMode == NetmodeID.MultiplayerClient)
                 return;
 
@@ -291,14 +295,18 @@ namespace JourneysReborn.Content.NPCs.Events.GoblinArmy
 
         public override void FindFrame(int frameHeight)
         {
-            NPC.frameCounter++;
-            if (NPC.frameCounter > 8)
+            // Vanilla DD2 ballista tower: 6 frames stacked vertically. Hold the rest pose, play the shot as it fires.
+            const int windup = 36;
+            if (fireTimer < 160 - windup)
             {
-                NPC.frameCounter = 0;
-                NPC.frame.Y += frameHeight;
-                if (NPC.frame.Y >= frameHeight * Main.npcFrameCount[Type])
-                    NPC.frame.Y = 0;
+                NPC.frame.Y = 0;
+                return;
             }
+
+            int step = (fireTimer - (160 - windup)) / (windup / Main.npcFrameCount[Type]);
+            if (step >= Main.npcFrameCount[Type])
+                step = Main.npcFrameCount[Type] - 1;
+            NPC.frame.Y = step * frameHeight;
         }
     }
 }
