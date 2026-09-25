@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JourneysReborn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73b4a7e596d5485e5211bde1a254f36075c88194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd1d77405dc3b089bd40bd1037687d8fea6e3f75")]
 [assembly: System.Reflection.AssemblyProductAttribute("JourneysReborn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JourneysReborn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
